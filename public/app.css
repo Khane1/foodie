@@ -1,0 +1,26 @@
+#delete{
+   display: inline;
+}
+
+.container.main{
+    margin-top: 4em;
+}
+.cut{
+    border-top-right-radius: 3px;
+}
+.pst{
+    position: absolute;
+}
+a.tiny.ui.button.positive{
+    margin-top:20px;
+    margin-left:100px; 
+}  
+.move{
+    margin-left: 20px;
+}
+.leftalign{
+      margin-left: 170px;
+}
+.ocasion{
+    color: gray;
+}

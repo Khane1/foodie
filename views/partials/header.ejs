@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Foodie</title>
+</head>
+<link rel="stylesheet" href="/app.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.css">
+<link rel="stylesheet" href="/tm-timber-download/css/timber.css" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.js"></script>
+<body>
+<style>
+    .simple{
+         position: fixed; 
+    top: 0px; 
+    left: auto;
+    z-index: 10;
+    }
+   
+</style>
+<div class="ui secondary pointing menu main menu fixed simple">
+<div class="ui container">
+    <a class="active item" href="/foodie">
+        Foodie
+    </a>
+    <a href="/foodiebank" class="item">
+        Foodiebank <i class="food icon"></i>
+    </a>  
+    <div class="right menu">
+        <%if(!currentuser){%>
+        <a href="/login"class="ui item">Login
+            <i class="user circle icon"></i>
+        </a>
+        <a href="/signup"class="ui item">SignUp 
+            <i class=" plus icon"></i>
+        </a>
+        <%}else{%>
+            <a href="#" class="ui item " style="color:#2980b9;text-transform: capitalize;">
+                <strong>
+                    <i>
+                        <%=currentuser.username%>
+                    </i>
+                </strong>
+            </a>
+            <a href="/foodie/new" class="item">
+                New Item
+            
+            </a>
+        <a href="/logout" class="ui item">Logout
+            <i class=" icon"></i>
+        </a>
+        <%}%>
+    </div>
+</div>
+</div>

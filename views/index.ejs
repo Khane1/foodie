@@ -1,0 +1,84 @@
+<style>
+    .tye{
+        margin-top:10em;
+        margin-bottom:0em;
+        font-weight: normal;
+    }
+    .knot{
+        font-size: 70px;
+    }
+    .the{
+        font-style: italic;
+    }
+</style>
+<div class="ui inverted vertical masthead center aligned segment">
+    <div class="pushable">
+        <div class="ui container">
+            <div class="ui secondary pointing menu inverted">
+                <% include ./partials/header%>
+            </div>
+           
+                <div class="ui text container tye">
+                    <div class="ui inverted header ">
+                        <h1 class="knot">Foodies love to bring more and more</h1>
+                    </div>
+        
+                    <h4>Click new to add your post</h4>
+                    
+                    <div class="ui  default  ">
+        
+                        <a class="the" href="/foodie/new">
+                            New
+                            <i class=" pen square icon"></i>
+                        </a>
+                    </div>
+                </div>
+        
+           
+        </div>
+    </div>
+  
+</div>
+<div class="ui vertical stripe segment">
+    <div class="row">
+        <div class="ui main text center container ">
+            <div class="ui top attached ">
+                <div class="ui divided items">
+                    <% foodies.forEach(function(foodie){ %>
+                        <div class="item">
+                            <div class="figure">
+                                <img class="ui middle aligned image figure-img img-fluid rounded" src="<%=foodie.image%>" alt="">
+                                <div class="meta eight wide column">
+                                    <span>
+                                        <%= foodie.created.toDateString() %>
+                                    </span>
+                                </div>
+                                <span>
+                                    <label for="" class="ui sub header ">
+                                        Price
+                                    </label>
+                                    $
+                                    <%=foodie.price%>
+                                </span>
+                                <div class="ui title">
+                                    <%=foodie.title%>
+                                </div>
+                                <div class="extra ">
+        
+                                    <a href="/foodie/<%=foodie._id%>" class="ui button">
+                                        <i class="eye icon center"></i>about</a>
+                                </div>
+                            </div>
+                        </div>
+        
+        
+                        <% }) %>
+        
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    
+</div>
+<% include ./partials/footer%>

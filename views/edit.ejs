@@ -1,0 +1,25 @@
+<% include ./partials/header/%>
+<div class="ui text container">
+    <h1>heading</h1>
+    <!-- this is the put method below -->
+    <form class="ui form" action="/foodie/<%=foodie._id%>?_method=PUT" method="POST">
+        <div class="field">
+            <label for="">Foodname</label>
+            <input type="text" name="foodie[title]" value="<%=foodie.title%>">
+        </div>
+        <div class="field">
+            <label for="">ImageUrl</label>
+            <input type="text" name="foodie[image]"value="<%=foodie.image%>">
+        </div>
+        <div class="field">
+            <label for="">price</label>
+            <input type="number" name="foodie[price]" value="<%=foodie.price%>">
+        </div>
+        <div class="field">
+            <label for="">Comment</label>
+            <textarea name="foodie[comment]" id="" cols="20" rows="2" placeholder="What are u up to?"><%=foodie.comment%></textarea>
+        </div>
+        <input class="ui button blue basic " type="submit" placeholder="submit">
+    </form>
+</div>
+<% include ./partials/footer/%>

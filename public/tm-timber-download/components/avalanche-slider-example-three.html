@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Avalanche Slider | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+	<link rel="stylesheet" href="../mediaelement/skin/mejs-snowplayerskin.css" />
+	<link rel="stylesheet" href="../css/github.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+	
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li class="current">
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Avalanche: Videos</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<div id="tm-slider-2" class="tm-slider-container" style="width:825px;height:550px;">
+								<ul class="tms-slides">	
+									<li class="tms-slide" data-image>
+										<h1 class="tms-caption color-white border-white lspacing-small padded no-margins weight-light" 
+											data-x="center"
+											data-y="center"
+											data-offsetx="0"
+											data-offsety="0"
+											data-animate-in="scale:2;opacity:0;duration:400ms;easing:swing"
+											>
+											<strong>AVALANCHE</strong> SLIDER
+										</h1>
+										<img data-src="../images/slider/slide-7.jpg" data-retina src="../images/blank.png" alt=""/>
+									</li>
+									<li class="tms-slide" data-video style="background:#000;">
+										<iframe src="http://player.vimeo.com/video/94614809?api=1"></iframe>
+									</li>
+									<li class="tms-slide" data-video style="background:#000;">	
+										<iframe src="http://www.youtube.com/embed/T1zEBh5HLH8?enablejsapi=1"></iframe>
+									</li>
+									<li class="tms-slide" data-video style="background:#000;" data-video-ratio="2.4">	
+										<video id="mejsVideo">
+											<source type="video/mp4" src="../mediaelement/video/oceans.mp4" />
+											<source type="video/webm" src="../mediaelement/video/oceans.webm" />
+											<source type="video/ogg" src="../mediaelement/video/oceans.ogv" />
+										</video>
+									</li>
+									<li class="tms-slide" data-video style="background:#000;" data-video-bkg>	
+										<h1 class="tms-caption color-white border-white lspacing-small padded no-margins weight-light" 
+											data-x="center"
+											data-y="center"
+											data-offsetx="0"
+											data-offsety="0"
+											data-animate-in="scale:2;opacity:0;duration:400ms;easing:swing"
+											>
+											<strong>BACKGROUND</strong> VIDEO
+										</h1>
+										<video>
+											<source type="video/mp4" src="../mediaelement/video/oceans.mp4" />
+											<source type="video/webm" src="../mediaelement/video/oceans.webm" />
+											<source type="video/ogg" src="../mediaelement/video/oceans.ogv" />
+										</video>
+									</li>
+								</ul>
+							</div>
+						<div class="clear"></div>
+						<h3>Videos</h3>
+						<p>The slider supports YouTube, Vimeo and HTML5 Videos and relies on their respective APIs to control them when scrolled in and out of view. Although the slider will include the APIs automatically and only if necessary, one must still activate the respective javascript APIs for YouTube and Vimeo as shown below. The slider also needs to know that slide should be treated as a video slide, this is done by adding the attribute <span class="label bkg-grey color-charcoal rounded">data-video</span> to the <span class="label bkg-grey color-charcoal rounded">li</span> tag.</p>
+						<p><strong>IMPORTANT:</strong> Using multiple videos will impact performance, so use cautiously.</p>
+						<hr>
+						<h5>Vimeo</h5>
+						<p>To activate the Vimeo API, add <span class="label bkg-grey color-charcoal rounded">?api=1</span> to the end of the URL as follows:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video>
+												<iframe src="http://player.vimeo.com/video/94614809?api=1"></iframe>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5>YouTube</h5>
+						<p>To activate the YouTube API, add <span class="label bkg-grey color-charcoal rounded">?enablejsapi=1</span> to the end of the URL as follows:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video>
+												<iframe src="http://www.youtube.com/embed/v2k94HVvL6s?enablejsapi=1"></iframe>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5>HTML5 Video</h5>
+						<p>No addtional script is required for controlling HTML5 videos, simply include it in the markup. For cross browser compatibility ensure that the video is encoded in .mp4, .webm, and .ogv.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video>
+												<video controls>
+													<source src="http://www.yourdomain.com/videos/video.mp4" type="video/mp4">
+													<source src="http://www.yourdomain.com/videos/video.webm" type="video/webm">
+													<source src="http://www.yourdomain.com/videos/video.ogv" type="video/ogg">
+												</video>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<h5>HTML5 Video and mediaelement.js</h5>
+						<p>Optionally use the popular mediaelement.js player for HTML5 videos along with the Thememountain Snowplayer skin. If using mediaelement.js then the <span class="label bkg-grey color-charcoal rounded">controls</span> can be removed from the <span class="label bkg-grey color-charcoal rounded">video</span> tag. <strong>Note:</strong> You will need to give the video tag a class or id and pass it to the MedaElement call. Ensure to initialize the MediaElement player prior to the Avalanche Slider.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video>
+												<video class="mejsplayer">
+													<source src="http://www.yourdomain.com/videos/video.mp4" type="video/mp4">
+													<source src="http://www.yourdomain.com/videos/video.webm" type="video/webm">
+													<source src="http://www.yourdomain.com/videos/video.ogv" type="video/ogg">
+												</video>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<p>To make the player reponsive make sure to specify player video width and height as follows in the MediaElement call:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										$( '.mejsplayer' ).mediaelementplayer({
+											videoWidth:'100%'
+											videoHeight:'100%'
+										});
+									});
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3>Background Video <span class="label bkg-red color-white rounded small">Updated</span></h3>
+						<p><strong>Avalanche slider now supports HTML5, YouTube and Vimeo background video</strong>.</p>
+						<h5>HTML5 Background Video</h5>
+						<p>To set a background video to a slide, add the attribute <span class="label bkg-grey color-charcoal rounded">data-video-bkg</span> to the <span class="label bkg-grey color-charcoal rounded">li</span> tag.<p>
+						<p><strong>Note:</strong> We set the poster attribute of the video tag to a blank png; this is done because the slide is used for the poster image instead.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video data-video-bkg>
+												<div class="tms-caption"
+													data-x="left"
+													data-y="center"
+													data-offsetx="0"
+													data-offsety="100px"
+													data-animate-in="opacity:0;transX:500px"
+												>
+													THIS IS CAPTION 1
+												</div>
+												<video poster="images/blank.png">
+													<source src="http://www.yourdomain.com/videos/video.mp4" type="video/mp4">
+													<source src="http://www.yourdomain.com/videos/video.webm" type="video/webm">
+													<source src="http://www.yourdomain.com/videos/video.ogv" type="video/ogg">
+												</video>
+												<img data-src="../images/slide-1.jpg" src=""/>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<h5>YouTube Background Video</h5>
+						<p>To add a YouTube background video to a slide, add the attribute <span class="label bkg-grey color-charcoal rounded">data-video</span> and <span class="label bkg-grey color-charcoal rounded">data-video-bkg-youtube</span> to the <span class="label bkg-grey color-charcoal rounded">li</span> tag.<p>
+						<p><strong>Note:</strong> We recommend to set a slider image as well, as this is the image shown on mobile devices.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video data-video-bkg-youtube>
+												<div class="tms-caption"
+													data-x="left"
+													data-y="center"
+													data-offsetx="0"
+													data-offsety="100px"
+													data-animate-in="opacity:0;transX:500px"
+												>
+													THIS IS CAPTION 1
+												</div>
+												<img data-src="../images/slide-1.jpg" src=""/>
+												<iframe width="2500" height="1600" src="https://www.youtube.com/embed/zaPo86cfmDQ?enablejsapi=1"></iframe>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<h5>Vimeo Background Video</h5>
+						<p>To add a Vimeo background video to a slide, add the attribute <span class="label bkg-grey color-charcoal rounded">data-video</span> and <span class="label bkg-grey color-charcoal rounded">data-video-bkg-vimeo</span> to the <span class="label bkg-grey color-charcoal rounded">li</span> tag.<p>
+						<p><strong>Note:</strong> We recommend to set a slider image as well, as this is the image shown on mobile devices.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video data-video-bkg-vimeo>
+												<div class="tms-caption"
+													data-x="left"
+													data-y="center"
+													data-offsetx="0"
+													data-offsety="100px"
+													data-animate-in="opacity:0;transX:500px"
+												>
+													THIS IS CAPTION 1
+												</div>
+												<img data-src="../images/slide-1.jpg" src=""/>
+												<iframe width="2500" height="1600" src="https://player.vimeo.com/video/58449984?api=1"></iframe>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5>Aspect Ratio</h5>
+						<p>Avalanche uses the most common ratio (16:9) for determining video size. This ratio can be overriden for individual slides by specifying a unique ratio by using the <span class="label bkg-grey color-charcoal rounded">data-video-ratio</span> attribute and specifying the ratio as a decimal. For example, the ratio 4:3 would be entered as 1.33.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div id="tm-slider-1" class="tm-slider-container">
+										<ul class="tms-slides">
+											<li class="tms-slide" data-video data-video-ratio="1.33">
+												<video class="mejsplayer">
+													<source src="http://www.yourdomain.com/videos/video.mp4" type="video/mp4">
+													<source src="http://www.yourdomain.com/videos/video.webm" type="video/webm">
+													<source src="http://www.yourdomain.com/videos/video.ogv" type="video/ogg">
+												</video>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<p>The slider can also be set to ignore any video aspect ratio and force all videos to fill the full slide  width and height. This is done as follows: </p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										$( '.tm-slider-container' ).avalancheSlider({
+											respectRatio:false
+										});
+									});
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5>Further Examples</h5>
+						<ul class="examples-list circle">
+							<li><a href="avalanche-slider-example-one.html">No images</a></li>
+							<li><a href="avalanche-slider-example-two.html">Landscape & Portrait</a></li>
+							<li class="current"><a href="avalanche-slider-example-three.html">Videos</a></li>
+							<li><a href="avalanche-slider-example-four.html">Carousel</a></li>
+							<li><a href="avalanche-slider-example-five.html">Fullwidth</a></li>
+							<li><a href="avalanche-slider-example-six.html">Fullscreen</a></li>
+							<li><a href="avalanche-slider-example-seven.html">API Example</a></li>
+						</ul>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../mediaelement/js/mediaelement-and-player.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script type="text/javascript">
+		$( document ).ready( function() {
+			// Optionallly add mediaelementjs player
+			// with Tm snowplayer skin
+			$( '#mejsVideo' ).mediaelementplayer({
+				videoWidth: '100%',
+				videoHeight: '100%'
+			});
+			// Avalanche
+			$( '.tm-slider-container' ).avalancheSlider({
+				animation: 'slide',
+				autoAdvance: false,
+				carousel: false,
+				lazyLoad: false,
+				navShowOnHover: true,
+				respectRatio: true
+		 	});
+		});
+	</script>
+</body>
+</html>

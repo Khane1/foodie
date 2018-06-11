@@ -1,0 +1,139 @@
+<% include ./partials/header%>
+<style>
+    .body {
+        margin-top: 50px;
+    }
+</style>
+<div class="container ui vertical stripe body ">
+    <div class="ui first dividing header container ">
+
+   <div class="ui  header "><h1 class="">
+     foodieB
+   </h1> </div>
+    <div class="ui three column grid">
+            <div class="col-md-3 column move">
+                <p class="lead">ID:
+                    <span class="card-header"style="color:#2980b9;text-transform: capitalize ;">
+                     <b><i>
+                        <%=currentuser.username%>
+                     </i>
+                    </b>
+                    </span>
+                </p>
+                <div class="list-group">
+                    <li class="list-group-item ">
+                        Coupons
+                    </li>
+                    <li class="list-group-item active">
+                        share a meal
+                    </li>
+                    <li class="list-group-item">Info 3</li>
+                </div>
+            </div>
+            <div class="move column">
+                <style>
+                    .HASH {
+                        display: flex;
+                        justify-content: space-between;
+                        float: right;
+                        margin-right: 100px;
+                    }
+                </style>
+                <h3 class="ui header ">
+                    Balance 
+                    <span class="ui right aligned leftalign "  id="balance" > 
+                       $<%=currentuser.balance%>
+                    </span>
+                </h3>
+                <div class=" ui grid columns">
+                    
+                   
+                        </h5>
+                        <div class="tiny">
+                            <form action="/foodiebank"method="POST">
+                                    <div class="ui right labeled input ui small icon input">
+                                        <label for="amount" class="ui label">UNITS</label>
+                                        <input type="number" name="price" placeholder="Amount" id="amount" id="inputGroup-sizing-sm">
+                                    </div>
+                                    <h5 class="ui ocasion">
+                                        T.arget
+                                        <i class="circle outline icon"></i>
+                                        <span class="ui right aligned leftalign" id="spend">
+                                            $
+                                            <%=banks.spend%>
+                                        </span>
+                            <input type="submit" value="pay" class="tiny ui button positive large " id="pay">
+                        </form>
+                                     
+                        </div>
+                        
+                    </div>
+                <!-- <div class="ui progress">
+                    <div class="bar">
+                        <div class="progress"></div>
+                    </div>
+                    <div class="label">Uploading Files</div>
+                </div>
+                <div class="decrement ui basic red button icon">
+                    <i class="minus icon"></i>
+                </div>
+                <div class="increment ui basic green button icon">
+                    <i class="plus icon"></i>
+                </div> -->
+            </div>
+    </div>
+</div>
+    <div class="ui modal">
+        <i class="close icon"></i>
+        <div class="header">
+            Profile Picture
+        </div>
+        <div class="image content">
+            <div class="ui medium image">
+                <img src="https://unsplash.com/photos/153_VPk1NZQ">
+            </div>
+            <div class="description">
+                <div class="ui header">We've auto-chosen a profile image for you.</div>
+                <p>We've grabbed the following image from the
+                    <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
+                <p>Is it okay to use this photo?</p>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="ui black deny button">
+                Nope
+            </div>
+            <div class="ui positive right labeled icon button">
+                Yep, that's me
+                <i class="checkmark icon"></i>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("a.ui.black.below.ignored.label.show").click(function(){
+              $('.ui.modal').modal('show');
+        })
+      var balance=document.getElementById("balance");
+    //   var spend=document.getElementById("spend");
+         var pay=document.getElementById("pay");
+         pay.addEventListener("click",function (req,res) {
+               spend = req.body.spend;
+            alert(spend)
+        //       var MongoClient = require('mongodb').MongoClient;
+        //      var url = "http://mongodb://localhost:27017/mydb";
+        //      MongoClient.connect(url, function (err, db) {
+        //          if (err) throw err;
+        //          var query = { balance: { $gt: 1} , name: 'Yappy' };
+        //      db.collection("balance").find(query).toArray(function (err, result) {
+        //          if (err) throw err;
+        //          console.log(result);
+        //          db.close();
+        //      });
+        //  });
+
+         })
+    </script>
+</div>
+
+
+<% include ./partials/footer%>

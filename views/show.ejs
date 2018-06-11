@@ -1,0 +1,79 @@
+<% include ./partials/header%>
+<div class="container">
+    <div class="row">
+    <div class="col-md-3">
+    <p class="lead">Foodie</p>
+    <div class="list-group">
+        <li class="list-group-item ">
+                                <a class="ui button basic violet" href="<%=foodie._id%>/edit">edit</a>
+
+            <form id="delete" action="<%=foodie._id%>?_method=DELETE" method="POST">
+                <button class="ui button basic red">Delete Post</button>
+            </form>
+        </li>
+        <!-- <li class="list-group-item">
+
+        </li> -->
+        <!-- <li class="list-group-item">Info 3</li> -->
+    </div>
+</div>
+<div class="">
+    <div class="content ui text container col-md-9">
+        <div class="card-body">
+            <h1></h1>
+        </div>
+        <h1 class="card-title">
+            <%=foodie.title%>
+        </h1>
+        <img class="card-img img-fluid" src="<%=foodie.image%>" alt="">
+        <p class="card-body">
+            <%= foodie.comment%>
+        </p>
+        <div class="ui text container form group">
+            <div class="card text-center">
+                <div class="card-header">
+                    <form action="<%=foodie._id%>" class="pst " method="POST" class="ui form card-text center"></form>
+        
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group" id="">
+                                <label class=" card-text lead float-right" for="">Comment</label>
+                            </span>
+                        </div>
+        
+                        <textarea name="foodie[comment1]" id="" cols="10" rows="2"></textarea>
+        
+                    </div>
+                    <input class="btn btn-primary right" type="submit">
+                </div>
+        
+                <div class="card-body">
+                    
+                    <div class="row">
+                        <div class="right aligned column">
+                            <div class="col-md card-body">
+                                <strong>
+                                   name
+                                </strong>-
+                                <span class="float-right">10 days ago</span>
+                                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                            </div>
+                        </div>
+                    
+                    </div>
+                    
+        
+                </div>
+                </form>
+            </div>
+        </div>
+        
+        </div>
+
+    </div>
+</div>
+
+
+
+Active
+<% include ./partials/footer%>

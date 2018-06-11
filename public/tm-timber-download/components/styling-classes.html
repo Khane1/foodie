@@ -1,0 +1,1355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Size Classes | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+	<link rel="stylesheet" href="../css/demo-editor.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Styling Classes</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2>Styling a Component</h2>
+						<p>Timber comes with a range of styling classes that can be used for components to quickly change their appearance depending on the section in which they appear. The extent to which they can be customized using these styling classes depends on their structural complexity. For the more complex compoents it is adviced to use CSS to overwrite base classes.</p>
+						<p>The component editor below suggests what styling classes work best with what component and gives the corresponding HTML that can be copied and pasted into your project.</p>
+
+						<!-- Demo Editor -->
+						<div class="box rounded demo-editor">
+
+							<!-- style element -->
+							<h6 class="label inline no-margin-bottom">Example</h6>
+							<div class="style-element-wrapper box rounded">
+								<div class="style-element-inner"></div>
+							</div>
+
+							<!-- editor -->
+							<div class="box class-field weight-light rounded" contenteditable="true" data-place-holder-text="Enter class names or select from dropdowns..."></div>
+							<div class="html-example-wrapper">
+								<div contenteditable="true" class="box html-example rounded"></div>
+								<a href="#" class="hide-html button small">Hide HTML</a>
+							</div>
+							<button class="button button-update rounded bkg-base bkg-hover-charcoal color-white color-hover-white small hide">Update</button>
+							<div class="row editor-options">
+								<div class="column width-3 component-element-options">
+									<div class="dropdown-group">
+										<div class="inline">
+											<h6 class="weight-light"><em>Choose a component:</em></h6>
+											<div class="dropdown dropdown-components small">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Component</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-component="typography" href="#">Typography</a></li>
+													<li><a data-component="blockquote" href="#">Blockquote</a></li>
+													<li><a data-component="feature-column" data-element="feature-column-element" href="#">Feature Column</a></li>
+													<li><a data-component="unordered-list" href="#">Unordered List</a></li>
+													<li><a data-component="ordered-list" href="#">Ordered List</a></li>
+													<li><a data-component="list-group" href="#">List Group</a></li>
+													<li><a data-component="button" href="#">Button</a></li>
+													<li><a data-component="label" href="#">Label</a></li>
+													<li><a data-component="dropdown" data-element="dropdown-element" href="#">Dropdown</a></li>
+													<li><a data-component="accordion" href="#">Accordion</a></li>
+													<li><a data-component="tabs" href="#">Tabs</a></li>
+													<li><a data-component="box" href="#">Box</a></li>
+													<li><a data-component="box-dismissable" href="#">Dismissable Box</a></li>
+													<li><a data-component="progress-bar" data-element="progress-bar-element" href="#">Progress Bar</a></li>
+													<li><a data-component="rollover" data-element="rollover-element" href="#">Rollover</a></li>
+													<li><a data-component="table" href="#">Table</a></li>
+													<li><a data-component="pricing-table" data-element="pricing-table-element" href="#">Pricing Table</a></li>
+													<li><a data-component="form-element" href="#">Form Element</a></li>
+													<li><a data-component="icon" href="#">Icon</a></li>
+												</ul>
+											</div>
+										</div>
+										<div class="dropdown-group">
+											<div id="feature-column-element" class="hide">
+												<h6 class="weight-light"><em>Element:</em></h6>
+												<!-- feature col element -->
+												<div class="dropdown dropdown-elements">
+													<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Column</span><span class="icon-down-open-mini"></span></button>
+													<ul class="dropdown-list">
+														<li><a data-class="feature-column" data-disable="icon-type;bkg-color;bkg-hover-color;border-style;border-color;border-hover-color;color;color-hover" href="#">Column</a></li>
+														<li><a data-class="feature-icon" data-disable="size;corners;text-align;letter-spacing;font-weight" href="#">Icon</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-group">
+											<div id="rollover-element" class="hide">
+												<h6 class="weight-light"><em>Element:</em></h6>
+												<!-- dd element -->
+												<div class="dropdown dropdown-elements">
+													<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Overlay</span><span class="icon-down-open-mini"></span></button>
+													<ul class="dropdown-list">
+														<li><a data-class="overlay-info" data-disable="size;bkg-hover-color;border-style;corners;border-color;border-hover-color;color;color-hover" href="#">Overlay</a></li>
+														<li><a data-class="button" data-disable="animation;v-align;text-align" href="#">Button</a></li>
+														<li><a data-class="icon-dribbble" data-disable="animation;corners;font-weight;letter-spacing;v-align;text-align" href="#">Social Link</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-group">
+											<div id="dropdown-element" class="hide">
+												<h6 class="weight-light"><em>Element:</em></h6>
+												<!-- dd element -->
+												<div class="dropdown dropdown-elements">
+													<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Dropdown</span><span class="icon-down-open-mini"></span></button>
+													<ul class="dropdown-list">
+														<li><a data-class="dropdown" data-disable="bkg-color;bkg-hover-color;corners;border-style;font-weight;border-color;border-hover-color;color;color-hover" href="#">Dropdown</a></li>
+														<li><a data-class="button" data-disable="size" href="#">Button</a></li>
+														<li><a data-class="dropdown-list" data-disable="size" href="#">List</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-group">
+											<div id="progress-bar-element" class="hide">
+												<h6 class="weight-light"><em>Element:</em></h6>
+												<!-- progress bar element -->
+												<div class="dropdown dropdown-elements">
+													<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Track</span><span class="icon-down-open-mini"></span></button>
+													<ul class="dropdown-list">
+														<li><a data-class="progress-bar" data-disable="font-weight;color;color-hover" href="#">Track</a></li>
+														<li><a data-class="bar" data-disable="size;text-align;corners" href="#">Bar</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="dropdown-group">
+											<div id="pricing-table-element" class="hide">
+												<h6 class="weight-light"><em>Element:</em></h6>
+												<!-- pricing table element -->
+												<div class="dropdown dropdown-elements">
+													<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Frame</span><span class="icon-down-open-mini"></span></button>
+													<ul class="dropdown-list">
+														<li><a data-class="pricing-table" data-disable="bkg-color;bkg-hover-color;border-style;border-color;border-hover-color;color;color-hover;" href="#">Frame</a></li>
+														<li><a data-class="pricing-table-header" data-disable="size;corners;border-style;border-color;border-hover-color" href="#">Header</a></li>
+														<li><a data-class="pricing-table-price" data-disable="size;corners;border-style;border-color;border-hover-color" href="#">Price</a></li>
+														<li><a data-class="button" href="#">Button</a></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="column width-9 class-options">
+									<div class="dropdown-group">
+										<div id="icon-type" class="hide">
+											<h6 class="weight-light"><em>Icon Type:</em></h6>
+											<!-- size -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Default</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Default</a></li>
+													<li><a data-class="icon-boxed" href="#">Boxed</a></li>
+													<li><a data-class="icon-circled" href="#">Circled</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="ul-list-type" class="hide">
+											<h6 class="weight-light"><em>List Style:</em></h6>
+											<!-- ul list type -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="disc" href="#">Disc</a></li>
+													<li><a data-class="circle" href="#">Circle</a></li>
+													<li><a data-class="square" href="#">Square</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="ol-list-type" class="hide">
+											<h6 class="weight-light"><em>List Style:</em></h6>
+											<!-- ol list type -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Default</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Default</a></li>
+													<li><a data-class="upper-roman" href="#">Upper Roman</a></li>
+													<li><a data-class="lower-alpha" href="#">Lower Alpha</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="list-group-type" class="hide">
+											<h6 class="weight-light"><em>List Group:</em></h6>
+											<!-- list group type -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Default</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Default</a></li>
+													<li><a data-class="boxed" href="#">Boxed</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="size" class="hide">
+											<h6 class="weight-light"><em>Size Class:</em></h6>
+											<!-- size -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Medium</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="small" href="#">Small</a></li>
+													<li><a data-class="medium" href="#">Medium</a></li>
+													<li><a data-class="large" href="#">Large</a></li>
+													<li><a data-class="xlarge" href="#">Extra Large</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="animation" class="hide">
+											<h6 class="weight-light"><em>Animation:</em></h6>
+											<!-- dd element -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Scale In</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Fade In</a></li>
+													<li><a data-class="animation-scale-in" href="#">Scale In</a></li>
+													<li><a data-class="animation-slide-in-top" href="#">Slide in Top</a></li>
+													<li><a data-class="animation-slide-in-bottom" href="#">Slide in Bottom</a></li>
+													<li><a data-class="animation-slide-in-left" href="#">Slide in Left</a></li>
+													<li><a data-class="animation-slide-in-right" href="#">Slide in Right</a></li>
+													<li><a data-class="animation-rotate-in" href="#">Rotate in</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="v-align" class="hide">
+											<h6 class="weight-light"><em>Vertical Align:</em></h6>
+											<!-- dd element -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Vertically Align</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Default</a></li>
+													<li><a data-class="v-align-top" href="#">Top</a></li>
+													<li><a data-class="v-align-bottom" href="#">Bottom</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="bkg-color" class="hide">
+											<h6 class="weight-light"><em>Bkg Color:</em></h6>
+											<!-- bkg color -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Bkg Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="bkg-base" href="#">Base</a></li>
+													<li><a data-class="bkg-black" href="#">Black</a></li>
+													<li><a data-class="bkg-purple-light" href="#">Blue</a></li>
+													<li><a data-class="bkg-purple-light-light" href="#">Light Blue</a></li>
+													<li><a data-class="bkg-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="bkg-charcoal-light" href="#">Charcoal Light</a></li>
+													<li><a data-class="bkg-green" href="#">Green</a></li>
+													<li><a data-class="bkg-green-light" href="#">Light Green</a></li>
+													<li><a data-class="bkg-grey" href="#">Grey</a></li>
+													<li><a data-class="bkg-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="bkg-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="bkg-navy" href="#">Navy</a></li>
+													<li><a data-class="bkg-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="bkg-orange" href="#">Orange</a></li>
+													<li><a data-class="bkg-orange-light" href="#">Light Orange</a></li>
+													<li><a data-class="bkg-purple-light" href="#">Purple</a></li>
+													<li><a data-class="bkg-purple-light" href="#">Light Purple</a></li>
+													<li><a data-class="bkg-red" href="#">Red</a></li>
+													<li><a data-class="bkg-red-light" href="#">Light Red</a></li>
+													<li><a data-class="bkg-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="bkg-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="bkg-white" href="#">White</a></li>
+													<li><a data-class="bkg-yellow" href="#">Yellow</a></li>
+													<li><a data-class="bkg-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="bkg-behance" href="#">Behance</a></li>
+													<li><a data-class="bkg-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="bkg-facebook" href="#">Facebook</a></li>
+													<li><a data-class="bkg-flickr" href="#">Flickr</a></li>
+													<li><a data-class="bkg-github" href="#">Github</a></li>
+													<li><a data-class="bkg-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="bkg-instagram" href="#">Instagram</a></li>
+													<li><a data-class="bkg-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="bkg-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="bkg-skype" href="#">Skype</a></li>
+													<li><a data-class="bkg-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="bkg-spotify" href="#">Spotify</a></li>
+													<li><a data-class="bkg-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="bkg-twitter" href="#">Twitter</a></li>
+													<li><a data-class="bkg-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="bkg-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="bkg-hover-color" class="hide">
+											<h6 class="weight-light"><em>Bkg Hover Color:</em></h6>
+											<!-- bkg hover color -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Bkg Hover Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="bkg-hover-base" href="#">Base</a></li>
+													<li><a data-class="bkg-hover-black" href="#">Black</a></li>
+													<li><a data-class="bkg-hover-blue" href="#">Blue</a></li>
+													<li><a data-class="bkg-hover-blue-light" href="#">Light Blue</a></li>
+													<li><a data-class="bkg-hover-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="bkg-hover-charcoal-light" href="#">Charcoal Light</a></li>
+													<li><a data-class="bkg-hover-green" href="#">Green</a></li>
+													<li><a data-class="bkg-hover-green-light" href="#">Light Green</a></li>
+													<li><a data-class="bkg-hover-grey" href="#">Grey</a></li>
+													<li><a data-class="bkg-hover-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="bkg-hover-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="bkg-hover-navy" href="#">Navy</a></li>
+													<li><a data-class="bkg-hover-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="bkg-hover-orange" href="#">Orange</a></li>
+													<li><a data-class="bkg-hover-orange-light" href="#">Light Orange</a></li>
+													<li><a data-class="bkg-hover-purple" href="#">Purple</a></li>
+													<li><a data-class="bkg-hover-purple-light" href="#">Light Purple</a></li>
+													<li><a data-class="bkg-hover-red" href="#">Red</a></li>
+													<li><a data-class="bkg-hover-red-light" href="#">Light Red</a></li>
+													<li><a data-class="bkg-hover-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="bkg-hover-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="bkg-hover-white" href="#">White</a></li>
+													<li><a data-class="bkg-hover-yellow" href="#">Yellow</a></li>
+													<li><a data-class="bkg-hover-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="bkg-hover-behance" href="#">Behance</a></li>
+													<li><a data-class="bkg-hover-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="bkg-hover-facebook" href="#">Facebook</a></li>
+													<li><a data-class="bkg-hover-flickr" href="#">Flickr</a></li>
+													<li><a data-class="bkg-hover-github" href="#">Github</a></li>
+													<li><a data-class="bkg-hover-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="bkg-hover-instagram" href="#">Instagram</a></li>
+													<li><a data-class="bkg-hover-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="bkg-hover-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="bkg-hover-skype" href="#">Skype</a></li>
+													<li><a data-class="bkg-hover-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="bkg-hover-spotify" href="#">Spotify</a></li>
+													<li><a data-class="bkg-hover-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="bkg-hover-twitter" href="#">Twitter</a></li>
+													<li><a data-class="bkg-hover-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="bkg-hover-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="alert" class="hide">
+											<h6 class="weight-light"><em>Alert Classes:</em></h6>
+											<!--alert class colors -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="highlight" href="#">Highlight</a></li>
+													<li><a data-class="info" href="#">Info</a></li>
+													<li><a data-class="success" href="#">Success</a></li>
+													<li><a data-class="alert" href="#">Alert</a></li>
+													<li><a data-class="warning" href="#">Warning</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="border-style" class="hide">
+											<h6 class="weight-light editor-element"><em>Border Style:</em></h6>
+											<!-- border-style -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="solid" href="#">Solid</a></li>
+													<li><a data-class="dotted" href="#">Dotted</a></li>
+													<li><a data-class="dashed" href="#">Dashed</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="corners" class="hide">
+											<h6 class="weight-light"><em>Corners:</em></h6>
+											<!-- corners -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="rounded" href="#">Rounded</a></li>
+													<li><a data-class="pill" href="#">Pill</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="border-color" class="hide">
+											<h6 class="weight-light"><em>Border Color:</em></h6>
+											<!-- border color -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Border Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="border-base" href="#">Base</a></li>
+													<li><a data-class="border-black" href="#">Black</a></li>
+													<li><a data-class="border-blue" href="#">Blue</a></li>
+													<li><a data-class="border-blue-light" href="#">Light Blue</a></li>
+													<li><a data-class="border-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="border-charcoal-light" href="#">Light Charcoal</a></li>
+													<li><a data-class="border-green" href="#">Green</a></li>
+													<li><a data-class="border-green-light" href="#">Light Green</a></li>
+													<li><a data-class="border-grey" href="#">Grey</a></li>
+													<li><a data-class="border-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="border-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="border-navy" href="#">Navy</a></li>
+													<li><a data-class="border-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="border-orange" href="#">Orange</a></li>
+													<li><a data-class="border-orange-light" href="#">Light Orange</a></li>
+													<li><a data-class="border-purple" href="#">Purple</a></li>
+													<li><a data-class="border-purple-light" href="#">Purple Light</a></li>
+													<li><a data-class="border-red" href="#">Red</a></li>
+													<li><a data-class="border-red-light" href="#">Light Red</a></li>
+													<li><a data-class="border-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="border-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="border-white" href="#">White</a></li>
+													<li><a data-class="border-yellow" href="#">Yellow</a></li>
+													<li><a data-class="border-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="border-behance" href="#">Behance</a></li>
+													<li><a data-class="border-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="border-facebook" href="#">Facebook</a></li>
+													<li><a data-class="border-flickr" href="#">Flickr</a></li>
+													<li><a data-class="border-github" href="#">Github</a></li>
+													<li><a data-class="border-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="border-instagram" href="#">Instagram</a></li>
+													<li><a data-class="border-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="border-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="border-skype" href="#">Skype</a></li>
+													<li><a data-class="border-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="border-spotify" href="#">Spotify</a></li>
+													<li><a data-class="border-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="border-twitter" href="#">Twitter</a></li>
+													<li><a data-class="border-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="border-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="border-hover-color" class="hide">
+											<h6 class="weight-light"><em>Border Hover Color:</em></h6>
+											<!-- border hover color -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Border Hover Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="border-hover-base" href="#">Base</a></li>
+													<li><a data-class="border-hover-black" href="#">Black</a></li>
+													<li><a data-class="border-hover-blue" href="#">Blue</a></li>
+													<li><a data-class="border-hover-blue-light" href="#">Light Blue</a></li>
+													<li><a data-class="border-hover-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="border-hover-charcoal-light" href="#">Light Charcoal</a></li>
+													<li><a data-class="border-hover-green" href="#">Green</a></li>
+													<li><a data-class="border-hover-green-light" href="#">Light Green</a></li>
+													<li><a data-class="border-hover-grey" href="#">Grey</a></li>
+													<li><a data-class="border-hover-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="border-hover-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="border-hover-navy" href="#">Navy</a></li>
+													<li><a data-class="border-hover-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="border-hover-orange" href="#">Orange</a></li>
+													<li><a data-class="border-hover-orange-light" href="#">Light Orange</a></li>
+													<li><a data-class="border-hover-purple" href="#">Purple</a></li>
+													<li><a data-class="border-hover-purple-light" href="#">Purple Light</a></li>
+													<li><a data-class="border-hover-red" href="#">Red</a></li>
+													<li><a data-class="border-hover-red-light" href="#">Light Red</a></li>
+													<li><a data-class="border-hover-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="border-hover-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="border-hover-white" href="#">White</a></li>
+													<li><a data-class="border-hover-yellow" href="#">Yellow</a></li>
+													<li><a data-class="border-hover-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="border-hover-behance" href="#">Behance</a></li>
+													<li><a data-class="border-hover-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="border-hover-facebook" href="#">Facebook</a></li>
+													<li><a data-class="border-hover-flickr" href="#">Flickr</a></li>
+													<li><a data-class="border-hover-github" href="#">Github</a></li>
+													<li><a data-class="border-hover-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="border-hover-instagram" href="#">Instagram</a></li>
+													<li><a data-class="border-hover-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="border-hover-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="border-hover-skype" href="#">Skype</a></li>
+													<li><a data-class="border-hover-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="border-hover-spotify" href="#">Spotify</a></li>
+													<li><a data-class="border-hover-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="border-hover-twitter" href="#">Twitter</a></li>
+													<li><a data-class="border-hover-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="border-hover-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>	
+									<div class="dropdown-group">
+										<div id="text-align" class="hide">
+											<h6 class="weight-light"><em>Text Align:</em></h6>
+											<!-- text align -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Left</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Left</a></li>
+													<li><a data-class="center" href="#">Center</a></li>
+													<li><a data-class="right" href="#">Right</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="font-weight" class="hide">
+											<h6 class="weight-light"><em>Text Weight:</em></h6>
+											<!-- font weight -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Regular</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="weight-light" href="#">Light</a></li>
+													<li><a data-class="weight-thin" href="#">Thin</a></li>
+													<li><a data-class="weight-regular" href="#">Regular</a></li>
+													<li><a data-class="weight-semibold" href="#">Semibold</a></li>
+													<li><a data-class="weight-bold" href="#">Bold</a></li>
+													<li><a data-class="weight-xbold" href="#">Extra Bold</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="letter-spacing" class="hide">
+											<h6 class="weight-light"><em>Letter Spacing:</em></h6>
+											<!-- font weight -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="lspacing-small" href="#">Small</a></li>
+													<li><a data-class="lspacing-medium" href="#">Medium</a></li>
+													<li><a data-class="lspacing-large" href="#">Large</a></li>
+													<li><a data-class="lspacing-xlarge" href="#">xLarge</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="text-shadow" class="hide">
+											<h6 class="weight-light"><em>Text Shadow:</em></h6>
+											<!-- text-shadow -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="text-shadow" href="#">Shadow</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="color" class="hide">
+											<h6 class="weight-light"><em>Text Color:</em></h6>
+											<!-- color -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Text Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="color-base" href="#">Base</a></li>
+													<li><a data-class="color-black" href="#">Black</a></li>
+													<li><a data-class="color-blue" href="#">Blue</a></li>
+													<li><a data-class="color-blue-light" href="#">Light Blue</a></li>
+													<li><a data-class="color-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="color-charcoal-light" href="#">Light Charcoal</a></li>
+													<li><a data-class="color-green" href="#">Green</a></li>
+													<li><a data-class="color-green-light" href="#">Light Green</a></li>
+													<li><a data-class="color-grey" href="#">Grey</a></li>
+													<li><a data-class="color-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="color-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="color-navy" href="#">Navy</a></li>
+													<li><a data-class="color-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="color-orange" href="#">Orange</a></li>
+													<li><a data-class="color-orange-light" href="#">Light Orange</a></li>
+													<li><a data-class="color-purple-light" href="#">Purple</a></li>
+													<li><a data-class="color-purple-light-light" href="#">Light Purple</a></li>
+													<li><a data-class="color-red" href="#">Red</a></li>
+													<li><a data-class="color-red-light" href="#">Light Red</a></li>
+													<li><a data-class="color-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="color-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="color-white" href="#">White</a></li>
+													<li><a data-class="color-yellow" href="#">Yellow</a></li>
+													<li><a data-class="color-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="color-behance" href="#">Behance</a></li>
+													<li><a data-class="color-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="color-facebook" href="#">Facebook</a></li>
+													<li><a data-class="color-flickr" href="#">Flickr</a></li>
+													<li><a data-class="color-github" href="#">Github</a></li>
+													<li><a data-class="color-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="color-instagram" href="#">Instagram</a></li>
+													<li><a data-class="color-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="color-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="color-skype" href="#">Skype</a></li>
+													<li><a data-class="color-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="color-spotify" href="#">Spotify</a></li>
+													<li><a data-class="color-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="color-twitter" href="#">Twitter</a></li>
+													<li><a data-class="color-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="color-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+										<div id="color-hover" class="hide">
+											<h6 class="weight-light"><em>Text Hover Color:</em></h6>
+											<!-- color hover -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Text Hover Color</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="color-hover-base" href="#">Base</a></li>
+													<li><a data-class="color-hover-black" href="#">Black</a></li>
+													<li><a data-class="color-hover-blue" href="#">Blue</a></li>
+													<li><a data-class="color-hover-blue-light" href="#">Light Blue</a></li>
+													<li><a data-class="color-hover-charcoal" href="#">Charcoal</a></li>
+													<li><a data-class="color-hover-charcoal-light" href="#">Light Charcoal</a></li>
+													<li><a data-class="color-hover-green" href="#">Green</a></li>
+													<li><a data-class="color-hover-green-light" href="#">Light Green</a></li>
+													<li><a data-class="color-hover-grey" href="#">Grey</a></li>
+													<li><a data-class="color-hover-grey-light" href="#">Light Grey</a></li>
+													<li><a data-class="color-hover-grey-ultralight" href="#">Ultralight Grey</a></li>
+													<li><a data-class="color-hover-navy" href="#">Navy</a></li>
+													<li><a data-class="color-hover-navy-light" href="#">Light Navy</a></li>
+													<li><a data-class="color-hover-orange" href="#">Orange</a></li>
+													<li><a data-class="color-hover-orange-light" href="#">Orange</a></li>
+													<li><a data-class="color-hover-purple" href="#">Purple</a></li>
+													<li><a data-class="color-hover-purple-light" href="#">Light Purple</a></li>
+													<li><a data-class="color-hover-red" href="#">Red</a></li>
+													<li><a data-class="color-hover-red-light" href="#">Light Red</a></li>
+													<li><a data-class="color-hover-turquoise" href="#">Turquoise</a></li>
+													<li><a data-class="color-hover-turquoise-light" href="#">Light Turquoise</a></li>
+													<li><a data-class="color-hover-white" href="#">White</a></li>
+													<li><a data-class="color-hover-yellow" href="#">Yellow</a></li>
+													<li><a data-class="color-hover-yellow-light" href="#">Light Yellow</a></li>
+													<li class="list-header">Social Color Classes</li>
+													<li><a data-class="color-hover-behance" href="#">Behance</a></li>
+													<li><a data-class="color-hover-dribbble" href="#">Dribble</a></li>
+													<li><a data-class="color-hover-facebook" href="#">Facebook</a></li>
+													<li><a data-class="color-hover-flickr" href="#">Flickr</a></li>
+													<li><a data-class="color-hover-github" href="#">Github</a></li>
+													<li><a data-class="color-hover-gplus" href="#">Google Plus</a></li>
+													<li><a data-class="color-hover-instagram" href="#">Instagram</a></li>
+													<li><a data-class="color-hover-linkedin" href="#">LinkedIn</a></li>
+													<li><a data-class="color-hover-pinterest" href="#">Pinterest</a></li>
+													<li><a data-class="color-hover-skype" href="#">Skype</a></li>
+													<li><a data-class="color-hover-soundcloud" href="#">SoundCloud</a></li>
+													<li><a data-class="color-hover-spotify" href="#">Spotify</a></li>
+													<li><a data-class="color-hover-tumblr" href="#">Tumblr</a></li>
+													<li><a data-class="color-hover-twitter" href="#">Twitter</a></li>
+													<li><a data-class="color-hover-vimeo" href="#">Vimeo</a></li>
+													<li><a data-class="color-hover-youtube" href="#">YouTube</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="padding" class="hide">
+											<h6 class="weight-light"><em>Padding:</em></h6>
+											<!-- padding -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>None</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">None</a></li>
+													<li><a data-class="padded" href="#">Padded</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									<div class="dropdown-group">
+										<div id="tab-alignment" class="hide">
+											<h6 class="weight-light"><em>Tab Alignment:</em></h6>
+											<!-- list group type -->
+											<div class="dropdown dropdown-classes">
+												<button class="button rounded bkg-grey bkg-hover-charcoal color-charcoal color-hover-white"><span>Horizontal</span><span class="icon-down-open-mini"></span></button>
+												<ul class="dropdown-list">
+													<li><a data-class="" href="#">Horizontal</a></li>
+													<li><a data-class="vertical" href="#">Vertical</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Demo Editor End -->
+
+						<!-- Component Group -->
+						<div class="component-group hide">
+							<div id="typography">
+								<h1><span class="style-element" data-class-support="text-align;font-weight:weight-regular;letter-spacing;text-shadow;bkg-color;bkg-hover-color;border-style;border-color;border-hover-color;color:color-charcoal;color-hover;padding">Sample Title</span></h1>
+							</div>
+							<div id="button">
+								<a href="#" class="button style-element" data-class-support="size:medium;font-weight:weight-regular;letter-spacing;bkg-color:bkg-base;bkg-hover-color:bkg-hover-base;border-style;corners;border-color:border-base;border-hover-color:border-hover-base;weight;color:color-base;color-hover:color-hover-base;">Button</a>
+								<span class="code-break"></span>
+								<a href="#" class="button style-element">
+									<span class="icon-check"></span>
+									With Icon
+								</a>
+								<span class="code-break"></span>
+								<ul class="button-nav inline">
+									<li>
+										<a href="#" class="button style-element">Prev</a>
+									</li>
+									<li>
+										<a href="#" class="button style-element">Next</a>
+									</li>
+								</ul>
+							</div>
+							<div id="dropdown">
+								<div class="dropdown style-element" data-class-support="size:medium;font-weight:weight-regular;letter-spacing;bkg-color;bkg-hover-color;border-style;corners;border-color;border-hover-color;color:color-charcoal;color-hover;dropdown-element">
+									<a href="#" class="button"><span>Dropdown</span><span class="icon-down-open-mini"></span></a>
+									<ul class="dropdown-list">
+										<li><a href="#">Item 1</a></li>
+										<li><a href="#">Item 2</a></li>
+										<li><a href="#">Item 3</a></li>
+										<li><a href="#">Item 4</a></li>
+									</ul>
+								</div>
+							</div>
+							<div id="blockquote">
+								<blockquote class="blockquote style-element avatar" data-class-support="size:medium;text-align;font-weight:weight-regular;letter-spacing;color:color-base;color-hover">
+									<span><img src="../images/avatar.jpg" alt="avatar"></span>
+									<p>Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations.
+										<cite>Steve Jobs</cite>
+									</p>
+								</blockquote>
+							</div>
+							<div id="feature-column">
+								<div class="feature-column style-element" data-class-support="icon-type;size:medium;text-align;font-weight:weight-regular;letter-spacing;bkg-color;bkg-hover-color;border-style;border-color;border-hover-color;color:color-charcoal;color-hover;feature-column-element">
+									<span class="feature-icon icon-check"></span>
+									<div class="feature-text">
+										<h5>A Small Title</h5>
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+									</div>
+								</div>
+							</div>
+							<div id="unordered-list">
+								<ul class="list style-element" data-class-support="text-align;font-weight:weight-regular;letter-spacing;ul-list-type;list-special-classes">
+									<li>Sed ut perspiciatis</li>
+									<li>Lorem ipsum dolor</li>
+									<li>Accusantium</li>
+									<li>Ratione voluptatem</li>
+									<li>Sed quia non</li>
+									<li>Neque porro quisquam</li>
+								</ul>
+							</div>
+							<div id="ordered-list">
+								<ol class="list style-element" data-class-support="text-align;font-weight:weight-regular;letter-spacing;ol-list-type;list-special-classes">
+									<li>Sed ut perspiciatis</li>
+									<li>Lorem ipsum dolor</li>
+									<li>Accusantium</li>
+									<li>Ratione voluptatem</li>
+									<li>Sed quia non</li>
+									<li>Neque porro quisquam</li>
+								</ol>
+							</div>
+							<div id="list-group">
+								<div class="list-group">
+									<ul class="list-group style-element" data-class-support="ul-list-type;list-group-type;size:medium;text-align;corners;font-weight:weight-regular;letter-spacing;border-style:solid;border-color;border-hover-color;color;color-hover;">
+										<li>Sed ut perspiciatis</li>
+										<li>Lorem ipsum dolor
+											<ul>
+												<li>Accusantium</li>
+												<li>Ratione voluptatem
+													<ul>
+														<li>Accusantium</li>
+														<li>Ratione voluptatem</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>Sed quia non</li>
+										<li>Neque porro quisquam</li>
+									</ul>
+								</div>
+							</div>
+							<div id="label">
+								<span class="style-element label" data-class-support="corners;font-weight:weight-regular;letter-spacing;text-shadow;border-style;bkg-color:bkg-base;bkg-hover-color:bkg-hover-base;border-color;border-hover-color;color;color-hover;">This is a label</span>
+							</div>
+							<div id="accordion">
+								<div class="accordion style-element" data-class-support="size:medium;text-align;font-weight:weight-regular;letter-spacing;border-style:solid;corners">
+									<ul>
+										<li class="active">
+											<a href="#accordion-3-panel-1">
+												<span class="icon-mail"></span>
+												Panel 1 Title
+											</a>
+											<div id="accordion-3-panel-1">
+												<div class="accordion-content">
+													<h5>Panel 1 Content</h5>
+													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="#accordion-3-panel-2">
+												<span class="icon-check"></span>
+												Panel 2 Title
+											</a>
+											<div id="accordion-3-panel-2">
+												<div class="accordion-content">
+													<h5>Panel 2 Content</h5>
+													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												</div>
+											</div>
+										</li>
+										<li>
+											<a href="#accordion-3-panel-3">
+												<span class="icon-info"></span>
+												Panel 3 Title
+											</a>
+											<div id="accordion-3-panel-3">
+												<div class="accordion-content">
+													<h5>Panel 3 Content</h5>
+													<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div id="tabs">
+								<div class="tabs style-element" data-class-support="size:medium;text-align;font-weight:weight-regular;letter-spacing;border-style:solid;corners;tab-alignment">
+									<ul class="tab-nav">
+										<li class="active">
+											<a href="#tab-5-content-1">Tab 1 Title</a>
+										</li>
+										<li>
+											<a href="#tab-5-content-2">Tab 2 Title</a>
+										</li>
+										<li>
+											<a href="#tab-5-content-3">Tab 3 Title</a>
+										</li>
+									</ul>
+									<div class="tab-panes">
+										<div id="tab-5-content-1" class="active">
+											<div class="tab-content">
+												<h5>Tab 1 Content</h5>
+												<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+										</div>
+										<div id="tab-5-content-2">
+											<div class="tab-content">
+												<h5>Tab 2 Content</h5>
+												<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+										</div>
+										<div id="tab-5-content-3">
+											<div class="tab-content">
+												<h5>Tab 3 Content</h5>
+												<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="box">
+								<div class="box style-element" data-class-support="size:medium;text-align;font-weight:weight-regular;letter-spacing;bkg-color;bkg-hover-color;alert;border-style:solid;corners;border-color:border-base;border-hover-color:border-hover-base;weight;color:color-base;color-hover:color-hover-base">
+									This is a box component
+								</div>
+							</div>
+							<div id="box-dismissable">
+								<div class="box dismissable style-element" data-class-support="size:medium;text-align;font-weight:weight-regular;letter-spacing;bkg-color;bkg-hover-color;alert;border-style:solid;corners;border-color:border-base;border-hover-color:border-hover-base;weight;color:color-base;color-hover:color-hover-base">
+									This is a dismissable box component
+								</div>
+							</div>
+							<div id="progress-bar">
+								<div class="progress-bar style-element" data-class-support="size:medium;bkg-color;bkg-hover-color;border-style;corners;border-color;border-hover-color;font-weight:regular;color;color-hover;progress-bar-element">
+									<div class="bar" style="width:50%;">
+										50%
+									</div>
+								</div>
+							</div>
+							<div id="rollover">
+								<div class="row content-grid-3">
+									<div class="grid-item">
+										<p><small><em>Rollover with Button</em></small></p>
+										<div class="thumbnail">
+											<span class="overlay-link">
+												<img src="../images/lightbox/thumb-1.jpg" alt=""/>
+												<span class="overlay-info style-element" data-class-support="animation;size;v-align;bkg-color;bkg-hover-color;border-style;corners;border-color;border-hover-color;font-weight:regular;letter-spacing;text-align;color;color-hover;rollover-element">
+													<span>
+														<span>
+															<a href="#" class="button ">View</a>
+														</span>
+													</span>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="grid-item">
+										<p><small><em>Rollover with Icon</em></small></p>
+										<div class="thumbnail">
+											<span class="overlay-link">
+												<img src="../images/lightbox/thumb-2.jpg" alt="" />
+												<span class="overlay-info style-element">
+													<span>
+														<span>
+															Socialize with us<br><br>
+															<a href="#" class="icon-dribbble"></a>
+														</span>
+													</span>
+												</span>
+											</span>
+										</div>
+									</div>
+									<div class="grid-item">
+										<p><small><em>Linked Rollover</em></small></p>
+										<div class="thumbnail">
+											<span class="overlay-link">
+												<img src="../images/lightbox/thumb-2.jpg" alt="" />
+												<a href="#" class="overlay-info style-element">
+													<span>
+														<span>
+															Just Some Text
+														</span>
+													</span>
+												</a>
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="table">
+								<table class="table style-element" data-class-support="size:medium;text-text-align;font-weight:weight-regular;letter-spacing;corners">
+									<thead>
+										<tr>
+											<th>Employee</th>
+											<th>Date of Birth</th>
+											<th>Job Title</th>
+											<th>Hobby</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>John</td>
+											<td>Jun 21, 1975</td>
+											<td>Engineer</td>
+											<td>Hiking</td>
+										</tr>
+										<tr>
+											<td>Ally</td>
+											<td>Aug 02, 1980</td>
+											<td>Doctor</td>
+											<td>Biking</td>
+										</tr>
+										<tr>
+											<td>Frank</td>
+											<td>Fev 03, 1986</td>
+											<td>Teacher</td>
+											<td>Swimming</td>
+										</tr>
+										<tr>
+											<td>Jane</td>
+											<td>Nov 25, 1970</td>
+											<td>Lawyer</td>
+											<td>Parachuting</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div id="pricing-table">
+								<div class="pricing-table columns-2 style-element" data-class-support="size:medium;bkg-color;bkg-hover-color;border-style;corners;border-color;border-hover-color;font-weight:regular;letter-spacing;color;color-hover;pricing-table-element">
+									<div class="pricing-table-column">
+										<div class="pricing-table-header">
+											<h2>Free</h2>
+										</div>
+										<div class="pricing-table-price">
+											<h4>
+												<span class="currency">$</span>
+												0
+												<span class="interval">/month</span>
+											</h4>
+										</div>
+										<ul class="pricing-table-options">
+											<li><strong>10GB</strong> Disk Space</li>
+											<li><strong>5</strong> Email Addresses</li>
+											<li><strong>3</strong> Subdomains</li>
+											<li><strong>1 MySQL</strong> Databases</li>
+										</ul>	
+										<div class="pricing-table-footer">
+											<a href="#" class="button">Select Option</a>
+										</div>
+									</div>
+									<div class="pricing-table-column callout">
+										<div class="pricing-table-header">
+											<h2>Starter</h2>
+										</div>
+										<div class="pricing-table-price">
+											<h4>
+												<span class="currency">$</span>
+													9.99
+												<span class="interval">/month</span>
+											</h4>
+										</div>
+										<ul class="pricing-table-options">
+											<li><strong>20GB</strong> Disk Space</li>
+											<li><strong>10</strong> Email Addresses</li>
+											<li><strong>6</strong> Subdomains</li>
+											<li><strong>2 MySQL</strong> Databases</li>
+										</ul>	
+										<div class="pricing-table-footer">
+											<a href="#" class="button">Select Option</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="form-element">
+								<input type="email" placeholder="name@yourdomain.com" class="form-element style-element" data-class-support="size:medium;bkg-color;bkg-hover-color;border-style;corners;border-color;border-hover-color;font-weight:regular;letter-spacing;color;color-hover">
+							</div>
+							<div id="icon">
+								<a href="#" class="icon-dribbble icon-demo style-element" data-class-support="icon-type;size:medium;bkg-color;bkg-hover-color;border-style;border-color;border-hover-color;color;color-hover"></a> 
+								<span class="code-break"></span>
+								<a href="#" class="style-element icon-facebook icon-demo"></a>
+								<span class="code-break"></span>
+								<a href="#" class="style-element icon-twitter icon-demo"></a>
+								<span class="code-break"></span>
+								<a href="#" class="style-element icon-vimeo icon-demo"></a>
+								<span class="code-break"></span>
+								<a href="#" class="style-element icon-pinterest icon-demo"></a>
+								<span class="code-break"></span>
+								<a href="#" class="style-element icon-skype icon-demo"></a>
+							</div>
+						</div>
+					</div>
+					<!-- Component Group End -->
+
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+				
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script src="../js/jquery.tm.css-editor.js"></script>
+</body>
+</html>

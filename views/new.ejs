@@ -1,0 +1,25 @@
+<% include ./partials/header%>
+<div class="ui main text container "> 
+    <h1 class="ui huge header">this is where i put my food</h1>
+    <form class="ui form"action="/foodie" method="POST">
+        <div class="field">
+            <label for="">Foodname</label>
+            <input type="text" name="foodie[title]">
+        </div>
+       <div class="field">
+        <label for="">ImageUrl</label>
+        <input type="text" name="foodie[image]">
+       </div>
+       <div class="field">
+           <label for="">price</label>
+           <input type="number"name="foodie[price]">
+       </div>
+        <div class="field">
+             <label for="">Comment</label>
+            <textarea name="foodie[comment]" id="" cols="20" rows="2" placeholder="What are u up to?"></textarea>
+        </div>  
+        <input class="ui button blue basic "type="submit" placeholder="submit">
+    </form>
+</div>
+
+<% include ./partials/footer%>

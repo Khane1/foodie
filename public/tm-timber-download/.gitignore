@@ -1,0 +1,27 @@
+# OS files or folders
+.DS_Store
+
+<<<<<<< HEAD
+# Folders to ignore
+=======
+# Folders/files to ignore
+node_modules
+js/components/*
+!js/components/timber.js
+js/lib/*
+js/plugins/*
+!js/plugins/jquery.tm.avalanche.js
+!js/plugins/jquery.tm.counter.js
+!js/plugins/jquery.tm.equalize.js
+!js/plugins/jquery.tm.horizon.js
+!js/plugins/jquery.tm.retinize.js
+!js/plugins/jquery.tm.snowbridge.js
+!js/plugins/jquery.tm.summit.js
+!js/plugins/jquery.tm.swipe.js
+css/plugins/*
+!css/components/timber.css
+!css/components/avalanche.css
+!css/components/horizon.css
+!css/components/snowbridge.css
+!css/components/summit.css
+>>>>>>> master

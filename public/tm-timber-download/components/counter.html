@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Counter | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li class="current">
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li class="current">
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Counter</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="counter">Count up or down</h2>
+						<p>Counter is a small plugin that will count up or down to a given target number. Used in combination with horizon, counting can be forced to begin once it appears in the view port.</p>
+						<hr>
+						<h3 id="resource-files">Resource Files</h3>
+						<p>Counter requires the following resource files:</p>
+						<h6 class="code-snippet-title">Js</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+									<script type="text/javascript" src="js/jquery.tm.counter.min.js"></script>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="count">Count upon document ready</h3>
+						<p>Set to and from parameters directly in the plugin call or use the data attributes <span class="label bkg-grey color-charcoal rounded">data-count-from</span> and <span class="label bkg-grey color-charcoal rounded">data-count-to</span> directly on the counter wrapper.</p>
+						<div class="row content-grid-4">
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span class="stats-1" data-count-from="100" data-count-to="400" >100</span></p>
+									<p>HOURS WORKED</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span class="stats-1" data-count-from="1300" data-count-to="1100" >1300</span></p>
+									<p>COFFEES</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span class="stats-1" data-count-from="5600" data-count-to="6000" >5600</span></p>
+									<p>LINES OF CODE</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span class="stats-1" data-count-from="300" data-count-to="450" >300</span></p>
+									<p>SUPPORT QUESTIONS</p>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<span data-count-from="0" data-count-to="100" class="stats">00</span>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="usage">Counter Usage</h3>
+						<p>To call the Counter plugin on one or multiple elements the following call should be added before the closing body tag on document ready.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										$( '.stats' ).counter();
+									});
+								</code>
+							</pre>
+						</div>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Attribute</th>
+									<th>Values</th>
+									<th>Default</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>autoStart</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td>Whether counter should start automatically</td>
+								</tr>
+								<tr>
+									<td>from</td>
+									<td>number</td>
+									<td>0</td>
+									<td>Number at which the counter will begin</td>
+								</tr>
+								<tr>
+									<td>to</td>
+									<td>number</td>
+									<td>100</td>
+									<td>Number at which the counter will end</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<h3 id="counter-horizon">Counter + Horizon</h3>
+						<p>When used in combination make the counter start only once in the viewport.</p>
+						<div class="row content-grid-4 horizon" data-animate-in="scale:1.2;">
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span id="s1" class="stats-2" data-count-from="100" data-count-to="400" >100</span></p>
+									<p>HOURS WORKED</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span id="s2" class="stats-2" data-count-from="1300" data-count-to="1100" >1300</span></p>
+									<p>COFFEES</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span id="s3" class="stats-2" data-count-from="5600" data-count-to="6000" >5600</span></p>
+									<p>LINES OF CODE</p>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="counter-wrapper">
+									<p class="counter"><span id="s4" class="stats-2" data-count-from="300" data-count-to="450" >300</span></p>
+									<p>SUPPORT QUESTIONS</p>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<span data-count-from="0" data-count-to="100" class="stats">00</span>
+								</code>
+							</pre>
+						</div>
+						<p>Start/Reset counter using the inView/outOfView callbacks from Horizon.</p>
+						<h6 class="code-snippet-title">Js</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										// Call counter and set autostart to false
+										$( .stats ).counter( {
+											autoStart: false 
+										});
+
+										// Call horizon
+										$( '.stats' ).horizon({
+										 recurring:	true, 
+
+										// Start counter once element is in view
+										inView:	function(){ 
+												$( '.stats' ).each( function(){
+												var counter = $( this ).data( 'counter' );
+													counter.startCounter();
+												});
+											},
+
+										// Clear counter once element is out of view
+										outOfView:	function(){ 
+												$( '.stats' ).each( function(){
+												var counter = $( this ).data( 'counter' );
+													counter.clearCounter();
+												});
+											}
+										});
+									});
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="api">API</h3>
+						<p>The Counter plugin provides a single callback once the counter has reached its target number.</p>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Callback</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>onComplete</td>
+									<td>Called once counter has reached target number, onComplete: function({})</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script>
+		$( document ).ready( function(){
+			$( '.stats-1' ).counter();
+			$( '.stats-2' ).counter({
+				autoStart: false
+			});
+			$( '.horizon' ).horizon({
+				recurring: true,
+				inView: function(){	
+					$( '.stats-2' ).each( function(){
+						var counter = $( this ).data( 'counter' );
+						counter.startCounter();
+					});
+				},
+				outOfView: function(){
+					$( '.stats-2' ).each( function(){
+						var counter = $( this ).data( 'counter' );
+						counter.clearCounter();
+					});
+				}
+			});
+		});
+	</script>
+</body>
+</html>

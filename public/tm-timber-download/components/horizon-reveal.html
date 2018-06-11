@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Horizon Reveal | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li class="current">
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Horizon</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="horizon">Reveal on Scroll</h2>
+						<p>Horizon is a small plugin that reveals elements upon entering the viewport using CSS3 transitions. It can be applied to any element of the page and by using the data-attribute <span class="label bkg-grey color-charcoal rounded">data-animate-in</span> we can deterimine how the element is revealed. Scroll down and back up to see horizon in action. </p>
+						<hr>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded horizon" data-animate-in="preset:scaleOut;duration:1000ms;">
+									<h5>Scaling In</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column width-6">
+								<div class="box rounded horizon" data-animate-in="preset:slideInLeftShort;duration:1000ms;">
+									<h5>Enters Left</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</div>
+							<div class="column width-6">
+								<div class="box rounded horizon" data-animate-in="preset:slideInRightShort;duration:1000ms;">
+									<h5>Enter Right</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="column width-6">
+								<div class="box rounded horizon" data-animate-in="preset:slideInDownShort;duration:1000ms;">
+									<h5>Enters Top</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</div>
+							<div class="column width-6">
+								<div class="box rounded horizon" data-animate-in="preset:slideInUpShort;duration:1000ms;">
+									<h5>Enters Bottom</h5>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="box rounded horizon" data-animate-in="preset:signSwingBottom;duration:1000ms;">
+								<h5>Wiggles In</h5>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							</div>
+						</div>
+						<hr>
+						<h3 id="resource-files">Resource Files</h3>
+						<p>Snowbridge requires the following resource files:</p>
+						<p>Although no stylesheet is required for the horizon plugin, it is recommended to set the opacity of parallax wrapper to 0, which will prevent flickering if the element is within the viewport upon page load.</p>
+						<h6 class="code-snippet-title">Css</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="css">
+									.horizon{ opacity:"0"; }
+								</code>
+							</pre>
+						</div>
+						<h6 class="code-snippet-title">Js</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+									<script type="text/javascript" src="js/jquery.tm.horizon.min.js"></script>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="element-animation-attr">Element Animation Data Attribute</h3>
+						<p>The way in which an element transitions to its position can be controlled using the <span class="label bkg-grey color-charcoal rounded">data-animate-in</span> attribute. Transition parameters are listed as follows:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div data-animate-in="opacity:0;transX:500px:scale:1.3;" class="horizon">Content</div>
+								</code>
+							</pre>
+						</div>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Attribute</th>
+									<th>Values</th>
+									<th>Default</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>opacity</td>
+									<td>0 - 1</td>
+									<td>0</td>
+									<td>Sets starting opacity of caption</td>
+								</tr>
+								<tr>
+									<td>transX</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial position of caption on x axis, entered as <em>500px</em> or <em>500</em></td>
+								</tr>
+									<tr>
+									<td>transY</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial position of caption on y axis, entered as <em>500px</em> or <em>500</em></td>
+								</tr>
+								<tr>
+									<td>transZ</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial position of caption on z axis, entered as <em>500px</em> or <em>500</em></td>
+								</tr>
+								<tr>
+									<td>rotateX</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial rotation of caption on x axis, entered as <em>180deg</em> or <em>180</em></td>
+								</tr>
+								<tr>
+									<td>rotateY</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial rotation of caption on y axis, entered as <em>180deg</em> or <em>180</em></td>
+								</tr>
+								<tr>
+									<td>rotateZ</td>
+									<td>-/+ number</td>
+									<td>0</td>
+									<td>Sets initial rotation of caption on z axis, entered as <em>180deg</em> or <em>180</em></td>
+								</tr>
+								<tr>
+									<td>scale</td>
+									<td>number</td>
+									<td>1</td>
+									<td>Sets initial scale of caption, where 1 is no scaling</td>
+								</tr>
+								<tr>
+									<td>duration</td>
+									<td>milliseconds</td>
+									<td>700ms</td>
+									<td>Sets duration of transition, entered as <em>700ms</em> or <em>700</em></td>
+								</tr>
+								<tr>
+									<td>delay</td>
+									<td>milliseconds</td>
+									<td>0ms</td>
+									<td>Sets delay before transitiosn starts, entered as <em>700ms</em> or <em>700</em></td>
+								</tr>
+								<tr>
+									<td>easing</td>
+									<td>string</td>
+									<td>swing</td>
+									<td>Sets easing type of transition, click <a href="#">here</a> to see easing types</td>
+								</tr>
+							</tbody>
+						</table>
+						<h5 id="caption-animation-presets">Preset Element Animations <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Horizon now supports a range of new presets to faciliate caption animations. <strong>Note:</strong> duration, delay and easing can still be overwritten if using a preset creating different effects. Here is how to use a preset:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div>
+										<div data-animate-in="preset:spinInY;duration:800ms;" class="horizon">Content</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<p>
+							<a data-content="inline" data-toolbar="" data-modal-mode data-modal-width="700" data-lightbox-animation="fade" href="#animation-presets" class="tml-link color-red">Click here for full list of presets</a>
+						</p>
+						<hr>
+						<h3 id="element-animation-perspective">Understanding Perspective</h3>
+						<p>When a horizon element is created, its parent receives a perspective class <span class="label bkg-grey color-charcoal rounded">.tmh-perspective</span> which gives the element a 3D-space. This means that if you are animating multiple elements within the same wrapper, all elements will share the same 3D-space and therefore the same vanishing point. This can have an undesired effect, in particular if your document is long and there are many element animating, but that are not visible in the viewport at the same time. To ensure that the element only animates within its own 3d space and not relative to the other elements, simply wrap the horizon element in a new div, for example:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div>
+										<div data-animate-in="opacity:0;transX:500px:scale:1.3;" class="horizon">Content</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<p><strong>Note:</strong> perspective is by default set to 800px. To change this, simply target the <span class="label bkg-grey color-charcoal rounded">.tmh-perspective</span> class.</p>
+						<hr>
+						<h3 id="element-parallax-attr">Horizon Parallax <span class="label bkg-red color-white rounded small">Beta</span></h3>
+						<p>Horizon now provides the ability to scroll page elements at a different rate than the overall page, creating a parallax effect. As opposed to horizon animated elements that are created using the <span class="label bkg-grey color-charcoal rounded">data-animate-in</span> attribute, parallax elements are created using the <span class="label bkg-grey color-charcoal rounded">data-parallax</span> attribute as follows:</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div data-parallax="direction:vertical;speed:0.3;rotate:anticlockwise;opacity:fade;" class="horizon">Content</div>
+								</code>
+							</pre>
+						</div>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Attribute</th>
+									<th>Values</th>
+									<th>Default</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>direction</td>
+									<td>vertical or horizontal</td>
+									<td>vertical</td>
+									<td>Direction that the parallax element should scroll in</td>
+								</tr>
+								<tr>
+									<td>speed</td>
+									<td>0 - 1</td>
+									<td>0.2</td>
+									<td>Sets the speed at which the element should scroll</td>
+								</tr>
+									<tr>
+									<td>rotate</td>
+									<td>clockwise, anticlockwise, none</td>
+									<td>none</td>
+									<td>Whether the element should slightly rotate creating depth upon scrolling</td>
+								</tr>
+								<tr>
+									<td>opacity</td>
+									<td>fade or none</td>
+									<td>none</td>
+									<td>Whether the element should fade out as it moves out of the viewport</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="box warning rounded">
+							<p><strong>Important:</strong> For the best result, use vertical direction if your site scrolls from top to bottom and horizontal if your site scrolls from left to right.</p>
+						</div>
+						<hr>
+						<h3 id="usage">Horizon Usage</h3>
+						<p>To call the Horizon plugin on one or multiple elements the following call should be added before the closing body tag on document ready.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										$( '.horizon' ).horizon();
+									});
+								</code>
+							</pre>
+						</div>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Attribute</th>
+									<th>Values</th>
+									<th>Default</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>easing</td>
+									<td>string</td>
+									<td>'swing'</td>
+									<td>Transition timing function</td>
+								</tr>
+								<tr>
+									<td>speed</td>
+									<td>milliseconds</td>
+									<td>500</td>
+									<td>Sets duration of transition, entered as 500</td>
+								</tr>
+								<tr>
+									<td>threshold</td>
+									<td>0 -1</td>
+									<td>1</td>
+									<td>Determines how much of the element should be visible before aimation starts.</td>
+								</tr>
+								<tr>
+									<td>recurring</td>
+									<td>boolean</td>
+									<td>false</td>
+									<td>Whether animation should recur upon scrolling page up/down</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<h3 id="api">API</h3>
+						<p>The horizon plugin provides two callbacks; one when the element is in view and one when the element is out of view. The timing of these callbacks does depend on the threshold set.</p>
+						<div class="row">
+							<div class="column width-12">
+								<table class="table rounded large">
+									<thead>
+										<tr>
+											<th>Callback</th>
+											<th>Description</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>inView</td>
+											<td>Called once the element is in view, inView: function({})</td>
+										</tr>
+										<tr>
+											<td>outOfView</td>
+											<td>Called once the element is out of view, outOfView: function({})</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+
+				<!-- Preset Modal End -->
+				<div id="animation-presets" class="animation-presets hide" style="padding: 5rem 5rem 2rem 5rem;">
+					<div class="row">
+						<div class="column width-12">
+							<h3>Horizon Animation Presets</h3>
+							<div class="row">
+								<div class="column width-12">
+									<h6>Fades</h6>
+									<ul class="disc">
+										<li>fadeIn</li>
+									</ul>
+									<hr>
+								</div>
+								<div class="column width-12">
+									<h6>Slide In</h6>
+									<div class="row">
+										<div class="column width-6">
+											<ul class="disc">
+												<li>slideInUpShort</li>
+												<li>slideInRightShort</li>
+												<li>slideInDownShort</li>
+												<li>slideInLeftShort</li>
+											</ul>
+										</div>
+										<div class="column width-6">
+											<ul class="disc">
+												<li>slideInUpLong</li>
+												<li>slideInRightLong</li>
+												<li>slideInDownLong</li>
+												<li>slideInLeftLong</li>
+											</ul>
+										</div>
+									</div>
+									<hr>
+								</div>
+								<div class="column width-12">
+									<h6>Bounce In</h6>
+									<div class="row">
+										<div class="column width-6">
+											<ul class="disc">
+												<li>bounceIn</li>
+												<li>bounceOut</li>
+												<li>bounceInUp</li>
+											</ul>
+										</div>
+										<div class="column width-6">
+											<ul class="disc">
+												<li>bounceInRight</li>
+												<li>bounceInDown</li>
+												<li>bounceInLeft</li>
+											</ul>
+										</div>
+									</div>
+									<hr>
+								</div>
+								<div class="column width-12">
+									<h6>Scale In</h6>
+									<ul class="disc">
+										<li>scaleIn</li>
+										<li>scaleOut</li>
+									</ul>
+									<hr>
+								</div>
+								<div class="column width-12">
+									<h6>Flips &amp; Spins</h6>
+									<div class="row">
+										<div class="column width-6">
+											<ul class="disc">
+												<li>flipInX</li>
+												<li>flipInY</li>
+												<li>spinInX</li>
+											</ul>
+										</div>
+										<div class="column width-6">
+											<ul class="disc">
+												<li>spinInY</li>
+												<li>helicopterIn</li>
+												<li>helicopterOut</li>
+											</ul>
+										</div>
+									</div>
+									<hr>
+								</div>
+								<div class="column width-12">
+									<h6>Special</h6>
+									<div class="row">
+										<div class="column width-6">
+											<ul class="disc">
+												<li>signSwingTop</li>
+												<li>signSwingRight</li>
+												<li>signSwingBottom</li>
+												<li>signSwingLeft</li>
+												<li>wiggleX</li>
+												<li>wiggleY</li>
+											</ul>
+										</div>
+										<div class="column width-6">
+											<ul class="disc">
+												<li>dropUp</li>
+												<li>dropDown</li>
+												<li>rollInLeft</li>
+												<li>rollInRight</li>
+												<li>turnInRight</li>
+												<li>turnInLeft</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Preset Modal End -->
+
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script type="text/javascript">
+		$( document ).ready( function() {
+			$( '.horizon' ).horizon({
+				easing: 'easeInOutQuint'
+			});
+			$( '.tml-link' ).summitLightbox();
+		});
+	</script>
+</body>
+</html>

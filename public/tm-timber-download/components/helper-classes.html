@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Helper Classes | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li class="current">
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Helper Classes</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2>Useful Classes <span class="label bkg-red color-white rounded small">Updated</span></h2>
+						<p>A useful set of classes for altering content on smaller devices.</p>
+						<hr>
+						<h5 id="floats">Floating Elements</h5>
+						<p>Easily float elements by applying the <span class="label bkg-grey color-charcoal rounded">.pull-left</span> or <span class="label bkg-grey color-charcoal rounded">.pull-right</span> class to an element.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="pull-right">Content...</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="clear-floats">Clearing Floats</h5>
+						<p>Clear floats by applying the <span class="label bkg-grey color-charcoal rounded">.clearfix</span> class to the wrapper of floated elements which will force it to exapand and push any floated elements below it. Alternatively, use the more old fashioned way for clearing floats by using the <span class="label bkg-grey color-charcoal rounded">.clear</span> class and applying to an element at the end of the floated elements.</p>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded">
+									<div class="clearfix">
+										<div class="box pull-left" style="width:30%;">.pull-left</div>
+										<div class="box pull-left" style="width:30%;">.pull-left</div>
+									</div>
+									<div class="box pull-left" style="width:30%;">.pull-left</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="box">
+										<div class="clearfix">
+											<div class="pull-left">Content...</div>
+											<div class="pull-left">Content...</div>
+										</div>
+										<div class="pull-left">Content...</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="clear-floats-mobile">Clearing Floats on Mobile <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Apply the <span class="label bkg-grey color-charcoal rounded">.clear-float-on-mobile</span> class to clear an elements float for screen widths &le; 768px.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="box pull-left clear-float-on-mobile">
+										Content...
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="remove-padding">Remove Padding <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Remove the padding of a section block or element by applying one or a combination of the following classes:</p>
+						<ul class="disc">
+							<li>.no-padding-top</li>
+							<li>.no-padding-right</li> 
+							<li>.no-padding-bottom</li>
+							<li>.no-padding-left</li>
+							<li>.no-padding</li>
+							<li>.no-padding-on-mobile (removes all padding for screen widths &le; 768px.)</li>
+						</ul>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded">
+									<div class="box rounded bkg-purple-light color-white no-padding-on-mobile">The outer box will have its padding removed on mobile.</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="box no-padding-on-mobile">
+										Content...
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="text-alignment">Text Alignment</h5>
+						<p>Change text alignment of a section or element by applying one of the following classes ( Note: the last three classes change alignment for screen widths &le; 768px. This is useful when content flows from top to bottom on smaller screens ):</p>
+						<ul class="disc">
+							<li>.left</li>
+							<li>.center</li> 
+							<li>.right</li>
+							<li>.left-on-mobile</li>
+							<li>.center-on-mobile</li>
+							<li>.right-on-mobile</li>
+						</ul>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded">
+									<p class="center color-purple">This text will remain centered on desktop and mobile</p>
+									<p class="center left-on-mobile color-purple-light">This text will left align on mobile</p>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="center">Content...</div>
+									<div class="center left-on-mobile">Content...</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="vertical-alignment">Vertical Alignment</h5>
+						<p>Vertical alignment classes are useful for rollovers or captions in particular but can be used for any element that employs the use of "table" and "table-cell" for display. Timber rollovers and captions are by default set to vertical align middle. Use one of the following classes to change vertical alignment ( Note: the last two classes are used to change vertical alignment for screen widths &le; 768px. This is useful when images become smaller and the caption needs to be repositioned ):</p>
+						<ul class="disc">
+							<li>.v-aign-top</li>
+							<li>.v-align-bottom</li> 
+							<li>.v-align-top-on-mobile</li>
+							<li>.v-align-bottom-on-mobile</li>
+						</ul>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded">
+									<div class="thumbnail">
+										<img src="../images/lightbox/thumb-7-wide.jpg" width="825" height="400" alt=""/>
+										<div class="caption-over-outer">
+											<div class="caption-over-inner v-align-bottom v-align-top-on-mobile center color-white">
+												<p class="weight-light">This captions is vertically aligned bottom on desktop but top on mobile.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="thumbnail">
+										<img src="images/thumbnail.jpg" width="825" height="400" alt="">
+										<div class="caption-over-outer">
+											<div class="caption-over-inner v-align-bottom v-align-top-mobile center color-white">
+												<p>Caption</p>
+											</div>
+										</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="hide-show">Hiding/Showing</h5>
+						<p>Force hide/show any element by applying the <span class="label bkg-grey color-charcoal rounded">.hide</span> or <span class="label bkg-grey color-charcoal rounded">.show</span> class to an element. Use <span class="label bkg-grey color-charcoal rounded">.hide-on-mobile</span> or <span class="label bkg-grey color-charcoal rounded">.show-on-mobile</span> to change an elements display for screen widths &le; 768px.</p>
+						<div class="row">
+							<div class="column width-12">
+								<div class="box rounded hide-on-mobile bkg-purple color-white">
+									This box shows on desktop but is hidden on mobile. Resize your browser!
+								</div>
+								<div class="box rounded hide show-on-mobile bkg-green color-white">
+									This box is hidden on desktop but shows on mobile
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="hide-on-mobile">Content...</div>
+									<div class="hide show-on-mobile">Content...</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="margins">Margins</h5>
+						<p>Remove an elements margins by appling theone of the following classes:</p>
+						<ul class="disc">
+							<li>.no-margins</li>
+							<li>.no-margin-top</li> 
+							<li>.no-margin-right</li>
+							<li>.no-margin-bottom</li>
+							<li>.no-margin-left</li>
+						</ul>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="no-margins">Content...</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="no-transition">Remove Transition</h5>
+						<p>Apply the class <span class="label bkg-grey color-charcoal rounded">.no-transitions</span> to remove an elements transition. Use <span class="label bkg-grey color-charcoal rounded">.no-transition-on-mobile</span> class to prevent an elements transition at screen widths &le; 768px.</p>
+						<div class="row">
+							<div class="column width-12 center">
+								<div class="box rounded">
+									<a href="#" class="button rounded bkg-purple bkg-hover-charcoal color-white no-transition">No transition</a>
+									<a href="#" class="button rounded bkg-purple bkg-hover-charcoal color-white no-transition-on-mobile">No transition on mobile</a>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a href="#" class="button rounded no-transition">Button</a>
+									<a href="#" class="button rounded no-transition-on-mobile">Button</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="overflow-visible">Overflow <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Force overflow visible on elements that have an overflow hidden applied to them by using the class <span class="label bkg-grey color-charcoal rounded">.overflow-visible</span>.</p>
+						<div class="row">
+							<div class="column width-12 center">
+								<div class="box xlarge rounded">
+									<div class="box bkg-grey-ultralight color-charcoal rounded overflow-visible" style="height:100px;">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div style="height:100px;" class="box overflow-visible">
+										Content...
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="no-scroll">Scroll <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Remove scrollbars of a scrollable section by adding the class <span class="label bkg-grey color-charcoal rounded">.no-scroll</span> to the element.</p>
+						<div class="row">
+							<div class="column width-12 center">
+								<div class="box xlarge rounded">
+									<div class="box bkg-grey-ultralight color-charcoal rounded no-scroll" style="height:100px;overflow:scroll;">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div style="height:100px;overflow:scroll;" class="box no-scroll">
+										Content...
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h5 id="clear-height">Clear Height <span class="label bkg-red color-white rounded small">New</span></h5>
+						<p>Remove a fixed height of an element and allow it to take its natural height by applying the <span class="label bkg-grey color-charcoal rounded">.clear-height</span> class to the element.</p>
+						<div class="row">
+							<div class="column width-12 center">
+								<div class="box xlarge rounded">
+									<div class="box bkg-grey-ultralight color-charcoal rounded clear-height" style="height:400px;">
+										<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div style="height:400px;" class="box clear-height">
+										Content...
+									</div>
+								</code>
+							</pre>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+				
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script src="../js/jquery.tm.css-editor.js"></script>
+</body>
+</html>

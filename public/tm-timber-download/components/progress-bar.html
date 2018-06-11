@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Progress Bars | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Progress Bars</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="intro">Basic</h2>
+						<p>Create elegant progress bars to show key information or data. Style them easily with a range of different styling classes.</p>
+						<div class="row progress-bar-demo">
+							<div class="column width-12">
+								<h6>Photoshop</h6>
+								<div class="progress-bar">
+									<div class="bar bkg-purple-light color-white" style="width:20%">
+										20%
+									</div>
+								</div>
+								<h6>Illustrator</h6>
+								<div class="progress-bar">
+									<div class="bar bkg-yellow color-white" style="width:30%">
+										30%
+									</div>
+								</div>
+								<h6>inDesign</h6>
+								<div class="progress-bar">
+									<div class="bar bkg-purple-light color-white" style="width:50%">
+										50%
+									</div>
+								</div>
+								<h6>Dreamweaver</h6>
+								<div class="progress-bar">
+									<div class="bar bkg-green color-white" style="width:80%">
+										80%
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="progress-bar">
+										<div class="bar bkg-purple-light color-white" style="width:20%;">
+											20%
+										</div>
+									</div>
+									<div class="progress-bar">
+										<div class="bar bkg-yellow color-white" style="width:30%;">
+											30%
+										</div>
+									</div>
+									<div class="progress-bar">
+										<div class="bar bkg-purple-light color-white" style="width:50%;">
+											50%
+										</div>
+									</div>
+									<div class="progress-bar">
+										<div class="bar bkg-green color-white" style="width:80%;">
+											80%
+										</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h2 id="styling">Addtional Styles</h2>
+						<p>Style the progress bars by using a combination of size class, background color/border-color, text color classes and border style classes. See <a href="styling-classes.html">Styling Classes</a> for more examples.</p>
+						<p>The example below illustrates the use of size classes, background color/border color and style classes. It also uses the Horizon Reveal plugin to animate the progress bars once in view. <strong>Note:</strong> Horizon Reveal requires <span class="label bkg-grey color-charcoal rounded">jquery.min.js</span> and <span class="label bkg-grey color-charcoal rounded">jquery.tm.horizon.min.js</span>. See <a href="horizon-reveal.html">Horizon Plugin</a> for more information on animation parameters.</p>
+						<div class="row">
+							<div class="column width-12">
+								<h6>Photoshop</h6>
+								<div class="progress-bar small pill">
+									<div class="bar bkg-red-light color-white horizon" data-animate-in="transX:-300;duration:1000ms;easing:swing;" style="width:20%;">
+										20%
+									</div>
+								</div>
+								<h6>Illustrator</h6>
+								<div class="progress-bar medium rounded bkg-purple-light">
+									<div class="bar bkg-purple color-white horizon" data-animate-in="transX:-300;duration:1000ms;delay:200ms;easing:swing;" style="width:30%;">
+										30%
+									</div>
+								</div>
+								<h6>InDesign</h6>
+								<div class="progress-bar large pill bkg-turquoise-light">
+									<div class="bar border-turquoise color-white horizon" data-animate-in="transX:-400;duration:1000ms;delay:400ms;easing:swing;" style="width:50%;">
+										50%
+									</div>
+								</div>
+								<h6>Dreamweaver</h6>
+								<div class="progress-bar xlarge rounded border-yellow dashed">
+									<div class="bar bkg-yellow-light color-white horizon" data-animate-in="transX:-400;duration:1000ms;delay:600ms;easing:swing;" style="width:80%;">
+										80%
+									</div>
+								</div>
+							</div>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="progress-bar small pill">
+										<div class="bar bkg-red-light color-white horizon" style="width:20%;" data-animate-in="transX:-300;duration:1000ms;easing:swing;">
+											20%
+										</div>
+									</div>
+									<div class="progress-bar medium rounded bkg-purple-light color-white">
+										<div class="bar bkg-purple-light-light horizon" style="width:30%;" data-animate-in="transX:-300;duration:1000ms;delay:200ms;easing:swing;">
+											30%
+										</div>
+									</div>
+									<div class="progress-bar large pill bkg-turquoise-light color-white">
+										<div class="bar border-turquoise color-white horizon" style="width:50%;" data-animate-in="transX:-400;duration:1000ms;delay:400ms;easing:swing;">
+											50%
+										</div>
+									</div>
+									<div class="progress-bar xlarge rounded border-yellow dashed color-white">
+										<div class="bar bkg-yellow-light" style="width:80%;" data-animate-in="transX:-400;duration:1000ms;delay:600ms;easing:swing;">
+											80%
+										</div>
+									</div>
+								</code>
+							</pre>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script>
+		$( document ).ready( function() {
+			$( '.horizon' ).horizon({
+				easing: 'easeInOutQuint'
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Accordion | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li class="current">
+									<a href="accordion.html">Accordion</a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="slider.html">Slider</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Accordion</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="intro">The Accordion</h2>
+						<p>Accordions are panels that can expand and collapse. They are a great way for presenting information in a limited amount of space. By default the accordion will toggle one panel at a time. <strong>Note:</strong> accordions require <span class="label bkg-grey color-charcoal rounded">jquery.min.js</span> and <span class="label bkg-grey color-charcoal rounded">timber.min.js</span>.</p>
+						<div class="accordion">
+							<ul>
+								<li class="active">
+									<a href="#accordion-panel-1">
+										Panel 1 Title
+									</a>
+									<div id="accordion-panel-1">
+										<div class="accordion-content">
+											<h5>Panel 1 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-panel-2">
+										Panel 2 Title
+									</a>
+									<div id="accordion-panel-2">
+										<div class="accordion-content">
+											<h5>Panel 2 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-panel-3">
+										Panel 3 Title
+									</a>
+									<div id="accordion-panel-3">
+										<div class="accordion-content">
+											<h5>Panel 3 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="accordion">
+										<ul>
+											<li  class="active">
+												<a href="#accordion-content-1">Panel 1 Title</a>
+												<div id="accordion-content-1">
+													<div class="accordion-content">Panel 1 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-2">Panel 2 Title</a>
+												<div id="accordion-content-2">
+													<div class="accordion-content">Panel 2 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-3">Panel 3 Title</a>
+												<div id="accordion-content-3">
+													<div class="accordion-content">Panel 3 Content</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h2 id="toggle-icons">Toggle Icons</h2>
+						<p>Toggle icons can be added to the accordion by adding the data attribute <span class="label bkg-grey color-charcoal rounded">data-toggle-icon</span> to the accordion wrapper. The script will toggle between two preset icons classes which can be changed directly in timber.js.</p>	
+						<div class="accordion" data-toggle-icon>
+							<ul>
+								<li class="active">
+									<a href="#accordion-2-panel-1">
+										Panel 1 Title
+									</a>
+									<div id="accordion-2-panel-1">
+										<div class="accordion-content">
+											<h5>Panel 1 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-2-panel-2">
+										Panel 2 Title
+									</a>
+									<div id="accordion-2-panel-2">
+										<div class="accordion-content">
+											<h5>Panel 2 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-2-panel-3">
+										Panel 3 Title
+									</a>
+									<div id="accordion-2-panel-3">
+										<div class="accordion-content">
+											<h5>Panel 3 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="accordion" data-toggle-icon>
+										<ul>
+											<li class="active">
+												<a href="#accordion-content-1">
+													Panel 1 Title </a>
+												<div id="accordion-content-1">
+													<div class="accordion-content">Panel 1 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-2">
+													Panel 2 Title</a>
+												<div id="accordion-content-2">
+													<div class="accordion-content">Panel 2 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-3">
+													Panel 3 Title
+												</a>
+												<div id="accordion-content-3">
+													<div class="accordion-content">Panel 3 Content</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h2 id="custom-icons">Custom Icons</h2>
+						<p>Custom icons can be added to the accordion headers by using custom icon class. For more information on custom icon classes visit the <a href="icons.html">icon cheatsheet</a>.</p>
+						<div class="accordion">
+							<ul>
+								<li class="active">
+									<a href="#accordion-3-panel-1">
+										<span class="icon-mail"></span>
+										Panel 1 Title
+									</a>
+									<div id="accordion-3-panel-1">
+										<div class="accordion-content">
+											<h5>Panel 1 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-3-panel-2">
+										<span class="icon-check"></span>
+										Panel 2 Title
+									</a>
+									<div id="accordion-3-panel-2">
+										<div class="accordion-content">
+											<h5>Panel 2 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-3-panel-3">
+										<span class="icon-info"></span>
+										Panel 3 Title
+									</a>
+									<div id="accordion-3-panel-3">
+										<div class="accordion-content">
+											<h5>Panel 3 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="accordion">
+										<ul>
+											<li class="active">
+												<a href="#accordion-content-1">
+													<span class="icon-quote"></span>
+													Panel 1 Title
+												</a>
+												<div id="accordion-content-1">
+													<div class="accordion-content">Panel 1 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-2">
+													<span class="icon-quote"></span>
+													Panel 2 Title
+												</a>
+												<div id="accordion-content-2">
+													<div class="accordion-content">Panel 2 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-3">
+													<span class="icon-quote"></span>
+													Panel 3 Title
+												</a>
+												<div id="accordion-content-3">
+													<div class="accordion-content">Panel 3 Content</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<h2 id="open-panels">Multiple Open Panels</h2>
+						<p>The accordion also supports multiple open panels. To enable multiple open panels add <span class="label bkg-grey color-charcoal rounded">data-toggle-multiple</span>. The <span class="label bkg-grey color-charcoal rounded">.active</span> class should be added to the <span class="label bkg-grey color-charcoal rounded">li</span> of each panel the should be open by default.</p>
+						<div class="accordion" data-toggle-multiple>
+							<ul>
+								<li class="active">
+									<a href="#accordion-4-panel-1">
+										Panel 1 Title
+									</a>
+									<div id="accordion-4-panel-1">
+										<div class="accordion-content">
+											<h5>Panel 1 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li class="active">
+									<a href="#accordion-4-panel-2">
+										Panel 2 Title
+									</a>
+									<div id="accordion-4-panel-2">
+										<div class="accordion-content">
+											<h5>Panel 2 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-4-panel-3">
+										Panel 3 Title
+									</a>
+									<div id="accordion-4-panel-3">
+										<div class="accordion-content">
+											<h5>Panel 3 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="accordion" data-toggle-multiple>
+										<ul>
+											<li class="active">
+												<a href="#accordion-content-1">Panel 1 Title</a>
+												<div id="accordion-content-1">
+													<div class="accordion-content">Panel 1 Content</div>
+												</div>
+											</li>
+											<li class="active">
+												<a href="#accordion-content-2">Panel 2 Title</a>
+												<div id="accordion-content-2">
+													<div class="accordion-content">Panel 2 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-3">Panel 3 Title</a>
+												<div id="accordion-content-3">
+													<div class="accordion-content">Panel 3 Content</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h2 id="styling">Addtional Styles</h2>
+						<p>Accordions can be styled further with rounded corners and altered in size. To add rounded corners simply add the <span class="label bkg-grey color-charcoal rounded">.rounded</span> class to the accordion wrapper. To alter size simply add <span class="label bkg-grey color-charcoal rounded">.small</span>, <span class="label bkg-grey color-charcoal rounded">.medium</span>, <span class="label bkg-grey color-charcoal rounded">.large</span> or <span class="label bkg-grey color-charcoal rounded">.xlarge</span> classes to the accordion wrapper.</p>
+						<div class="accordion rounded xlarge">
+							<ul>
+								<li class="active">
+									<a href="#accordion-5-panel-1">
+										Panel 1 Title
+									</a>
+									<div id="accordion-5-panel-1">
+										<div class="accordion-content">
+											<h5>Panel 1 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-5-panel-2">
+										Panel 2 Title
+									</a>
+									<div id="accordion-5-panel-2">
+										<div class="accordion-content">
+											<h5>Panel 2 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<a href="#accordion-5-panel-3">
+										Panel 3 Title
+									</a>
+									<div id="accordion-5-panel-3">
+										<div class="accordion-content">
+											<h5>Panel 3 Content</h5>
+											<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<div class="accordion xlarge rounded">
+										<ul>
+											<li class="active">
+												<a href="#accordion-content-1">Panel 1 Title</a>
+												<div id="accordion-content-1">
+													<div class="accordion-content">Panel 1 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-2">Panel 2 Title</a>
+												<div id="accordion-content-2">
+													<div class="accordion-content">Panel 2 Content</div>
+												</div>
+											</li>
+											<li>
+												<a href="#accordion-content-3">Panel 3 Title</a>
+												<div id="accordion-content-3">
+													<div class="accordion-content">Panel 3 Content</div>
+												</div>
+											</li>
+										</ul>
+									</div>
+								</code>
+							</pre>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="accordion.html">Accordion</a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+</body>
+</html>

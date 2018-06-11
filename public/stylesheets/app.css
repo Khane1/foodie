@@ -1,0 +1,14 @@
+#delete{
+   display: inline;
+}
+
+.container.main{
+    margin-top: 4em;
+}
+.cut{
+   border-radius:200px;
+    
+}
+body{
+    background: red;
+}

@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Lists | Timber Framework</title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li class="current">
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<!-- Header End -->
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Font Icons</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="#intro">Entypo</h2>
+						<p>Timber uses Entypo font icons which are composed of some 250+ icons. Easily style icons using border color classes, background color classes and size classes. Highlight icons using the <span class="label bkg-grey color-charcoal rounded">.feature-icon</span> class.</p>
+						<h4>Sizes</h4>
+						<div class="font-icon-examples">
+							<span class="icon-pencil small rounded"></span> 
+							<span class="icon-pencil medium rounded"></span>
+							<span class="icon-pencil large rounded"></span>
+							<span class="icon-pencil xlarge rounded"></span>
+						</div>
+						<p>To alter size use one of the four existing size classes: <span class="label bkg-grey color-charcoal rounded">.small</span>, <span class="label bkg-grey color-charcoal rounded">.medium</span>, <span class="label bkg-grey color-charcoal rounded">.large</span> or <span class="label bkg-grey color-charcoal rounded">.xlarge</span>.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<span class="icon-pencil xlarge"></span>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h4 id="#colors">Colors</h4>
+						<p>Add border and background color classes in combination with the feature icon class to draw attention to an icon.</p>
+						<div class="font-icon-examples icon-demo">
+							<span class="icon-boxed icon-pencil small rounded bkg-green-light color-white"></span>
+							<span class="icon-boxed icon-pencil medium rounded bkg-red-light color-white"></span>
+							<span class="icon-boxed icon-pencil large rounded border-yellow-light color-yellow-light"></span>
+							<span class="icon-boxed icon-pencil xlarge rounded border-navy-light color-navy-light"></span>
+							<span class="icon-boxed icon-pencil small rounded bkg-green-light color-white"></span> 
+							<span class="icon-boxed icon-pencil medium rounded bkg-red-light color-white"></span>
+							<span class="icon-boxed icon-pencil large rounded border-yellow-light color-yellow-light"></span>
+							<span class="icon-boxed icon-pencil xlarge rounded border-navy-light color-navy-light"></span>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<span class="icon-pencil icon-boxed color-grey xlarge border-navy-light"></span>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h4 id="styles">Styles</h4>
+						<p>Alternate styles by mixing border and background color class with style classes such as <span class="label bkg-grey color-charcoal rounded">.thick</span>, <span class="label bkg-grey color-charcoal rounded">.dashed</span>, <span class="label bkg-grey color-charcoal rounded">.dotted</span>, <span class="label bkg-grey color-charcoal rounded">.thick</span>, <span class="label bkg-grey color-charcoal rounded">.rounded</span>, and <span class="label bkg-grey color-charcoal rounded">.circled</span>. Hover the icons below to see the result.</p>
+						<div class="font-icon-examples icon-demo">
+							<a href="#" class="icon-boxed icon-pencil small rounded bkg-green-light bkg-hover-navy color-white color-hover-white"></a>
+							<a href="#" class="icon-boxed icon-pencil medium rounded bkg-red-light border-hover-blue-light color-white color-hover-red"></a>
+							<a href="#" class="icon-boxed icon-pencil large rounded border-yellow-light color-yellow-light color-hover-red border-hover-red dotted"></a>
+							<a href="#" class="icon-boxed icon-pencil xlarge rounded border-navy-light color-navy-light bkg-hover-purple color-hover-white dashed"></a>
+							<a href="#" class="icon-circled icon-pencil small rounded border-green-light color-green-light bkg-hover-green-light color-hover-white thick"></a> 
+							<a href="#" class="icon-circled icon-pencil medium rounded border-red-light color-red color-hover-red-light border-hover-red-light dashed thick"></a>
+							<a href="#" class="icon-circled icon-pencil large rounded border-yellow-light color-yellow-light color-hover-navy border-hover-navy dotted thick"></a>
+							<a href="#" class="icon-circled icon-pencil xlarge rounded border-navy-light color-navy-light color-hover-red-light border-hover-red-light thick"></a>
+						</div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a href=# class="icon-pencil icon-boxed color-grey circled xlarge bkg-navy border-hover-red"></a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h2 id="icon-list">Full Icon List - 400+ <span class="label bkg-red color-white rounded small">Updated</span></h2>
+						<p>Rollover any icon to see icon class name.</p>
+						<div class="row">
+							<div class="column width-12 font-icon-grid">
+								<a href="#" class="icon-add-to-list icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-add-user icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-address icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-adjust icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-air icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-aircraft-landing icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-aircraft-take-off icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-aircraft icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-bottom icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-horizontal-middle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-top icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-align-vertical-middle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-archive icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-area-graph icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-bold-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-bold-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-bold-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-bold-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-long-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-long-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-long-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-long-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-with-circle-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-with-circle-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-with-circle-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-arrow-with-circle-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-attachment icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-awareness-ribbon icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-back-in-time icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-back icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bar-graph icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-battery icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-beamed-note icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bell icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-blackboard icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-block icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-book icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bookmark icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bookmarks icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bowl icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-box icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-briefcase icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-browser icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-brush icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bucket icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-bug icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cake icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-calculator icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-calendar icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-camera icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-ccw icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-chat icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-check icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-down-open-mini icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-left-open-mini icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-right-open-mini icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-up-open-mini icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-down-open-big icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-left-open-big icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-right-open-big icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-up-open-big icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-down-circled icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-left-circled icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-right-circled icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-up-circled icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-circle-with-cross icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-circle-with-minus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-circle-with-plus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-circular-graph icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-clapperboard icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-classic-computer icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-clipboard icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-clock icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-code icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cog icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-colours icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-compass icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-fast-backward icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-fast-forward icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-jump-to-start icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-next icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-paus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-play icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-record icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-stop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-volume icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-copy icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-attribution icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-noderivs icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-noncommercial-eu icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-noncommercial-us icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-public-domain icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-remix icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-share icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons-sharealike icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-commons icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-credit-card icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-credit icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-crop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cancel icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cup icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cw icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-cycle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-database icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dial-pad icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-direction icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-document-landscape icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-document icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-documents icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dot-single icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dots-three-horizontal icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dots-three-vertical icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dots-two-horizontal icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dots-two-vertical icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-download icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-drink icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-drive icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-drop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-edit icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-email icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-emoji-flirt icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-emoji-happy icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-emoji-neutral icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-emoji-sad icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-erase icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-eraser icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-export icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-eye-with-line icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-eye icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-feather icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-fingerprint icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flag icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flash icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flashlight icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flat-brush icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flow-branch icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flow-cascade icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flow-line icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flow-parallel icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flow-tree icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flower icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-folder-images icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-folder-music icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-folder-video icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-folder icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-forward icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-funnel icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-game-controller icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-gauge icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-globe icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-graduation-cap icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-grid icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-hair-cross icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-hand icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-heart-outlined icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-heart icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-help-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-help icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-home icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-hour-glass icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-image-inverted icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-image icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-images icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-inbox icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-infinity icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-info-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-info icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-install icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-key icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-keyboard icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lab-flask icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-landline icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-language icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-laptop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-layers icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-leaf icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-level-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-level-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lifebuoy icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-light-bulb icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-light-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-light-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-line-graph icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-link icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-list icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-location-pin icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-location icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lock-open icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lock icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-log-out icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-login icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-loop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-magnet icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-magnifying-glass icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mail icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-man icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-map icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mask icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-medal icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-megaphone icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-menu icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-merge icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-message icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mic icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-minus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mobile icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-modern-mic icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-moon icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mouse-pointer icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mouse icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-music icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-network icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-new-message icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-new icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-news icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-newsletter icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-note icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-notification icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-notifications-off icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-old-mobile icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-old-phone icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-open-book icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-palette icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-paper-plane icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-pencil icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-phone icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-pie-chart icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-pin icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-plus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-popup icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-power-plug icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-price-ribbon icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-price-tag icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-print icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-progress-empty icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-progress-full icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-progress-one icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-progress-two icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-publish icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-quote icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-radio icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-remove-user icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-reply-all icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-reply icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-resize-100 icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-resize-full-screen icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-retweet icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-rocket icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-round-brush icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-rss icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-ruler icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-save icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-scissors icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-select-arrows icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-share-alternative icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-share icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shareable icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shield icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shop icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shopping-bag icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shopping-basket icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shopping-cart icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-shuffle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-signal icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sound-mix icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sound-mute icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sound icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sports-club icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-spreadsheet icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-squared-cross icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-squared-minus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-squared-plus icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-star-outlined icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-star icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-stopwatch icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-suitcase icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-swap icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sweden icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-switch icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tablet-mobile-combo icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tablet icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tag icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-text-document-inverted icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-text-document icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-text icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-thermometer icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-thumbs-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-thumbs-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-thunder-cloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-ticket icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-time-slot icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tools icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-traffic-cone icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-trash icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tree icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-triangle-down icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-triangle-left icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-triangle-right icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-triangle-up icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-trophy icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tv icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-typing icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-uninstall icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-unread icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-untag icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-upload-to-cloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-upload icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-user icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-users icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-v-card icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-video-camera icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-video icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vinyl icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-voicemail icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-wallet icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-warning icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-water icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-px-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-px icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-app-store icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-baidu icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-basecamp icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-behance icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-creative-cloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dribbble-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dribbble icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-dropbox icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-evernote icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-facebook-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-facebook icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flattr icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flickr-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-flickr icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-foursquare icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-github-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-github icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-google-drive icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-google-hangouts icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-google-play icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-google-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-google icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-grooveshark icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-houzz icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-icloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-instagram-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-instagram icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lastfm-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-lastfm icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-linkedin-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-linkedin icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mail-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-medium-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-medium icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-mixi icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-onedrive icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-paypal icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-picasa icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-pinterest-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-pinterest icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-qq-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-qq icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-raft-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-raft icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-rainbow icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-rdio-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-rdio icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-renren icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-scribd icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-sina-weibo icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-skype-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-skype icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-slideshare icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-smashing icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-soundcloud icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-spotify-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-spotify icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-stumbleupon-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-stumbleupon icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-swarm icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tripadvisor icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tumblr-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-tumblr icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-twitter-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-twitter icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vimeo-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vimeo icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vine-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vine icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vk-alternitive icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vk-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-vk icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-windows-store icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-xing-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-xing icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-yelp icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-youko-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-youko icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-youtube-with-circle icon-boxed color-grey squared medium rounded"></a> 
+								<a href="#" class="icon-youtube icon-boxed color-grey squared medium rounded"></a> 
+							</div>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bar</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script>
+		$( '.font-icon-grid' ).find( 'a' ).each( function (){
+			$( this ).attr( 'title', $( this ).attr( 'class' ).replace( 'icon-boxed color-grey', '' ).replace( 'squared medium rounded', '' ) );
+			$( this ).on( 'click', function(){
+				return false;
+			});
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
+	<title>Summit Lightbox | Timber </title>
+	<link rel="shortcut icon" type="image/x-icon" href="../images/theme-mountain-favicon.ico">
+	
+	<!-- Css -->
+	<link rel="stylesheet" href="../css/core.min.css" />
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700%7CLato:300,400,700' rel='stylesheet' type='text/css'>
+
+	<!--[if lt IE 9]>
+    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+
+	<!-- Mobile Menu -->
+	<aside class="side-navigation-wrapper enter-right" data-no-scrollbar data-animation="push-in">
+		<div class="side-navigation-scroll-pane">
+			<div class="side-navigation-inner">
+				<div class="side-navigation-header">
+					<div class="logo">
+						<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+					</div>
+					<div class="navigation-hide side-nav-hide">
+						<a href="#">
+							<span class="icon-cancel medium"></span>
+						</a>
+					</div>
+				</div>
+				<nav class="side-navigation">
+					<ul>
+						<li>
+							<a href="../index.html">Get Started</a>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Components</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="grid.html">Grid</a>
+								</li>
+								<li>
+									<a href="typography.html">Typography</a>
+								</li>
+								<li>
+									<a href="navigation.html">Navigation</a>
+								</li>
+								<li>
+									<a href="blockquotes.html">Blockquotes</a>
+								</li>
+								<li>
+									<a href="feature-columns.html">Feature Columns</a>
+								</li>
+								<li>
+									<a href="lists.html">Lists</a>
+								</li>
+								<li>
+									<a href="buttons.html">Buttons</a>
+								</li>
+								<li>
+									<a href="labels.html">Labels</a>
+								</li>
+								<li>
+									<a href="dropdown.html">Dropdown</a>
+								</li>
+								<li>
+									<a href="accordion.html">Accordion </a>
+								</li>
+								<li>
+									<a href="tabs.html">Tabs</a>
+								</li>
+								<li>
+									<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+								</li>
+								<li>
+									<a href="boxes.html">Boxes</a>
+								</li>
+								<li>
+									<a href="images.html">Images</a>
+								</li>
+								<li>
+									<a href="video.html">Video &amp; Audio</a>
+								</li>
+								<li>
+									<a href="tables.html">Tables</a>
+								</li>
+								<li>
+									<a href="pricing-tables.html">Pricing Tables</a>
+								</li>
+								<li>
+									<a href="form-elements.html">Form Elements</a>
+								</li>
+								<li>
+									<a href="icons.html">Icons</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Classes</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="styling-classes.html">Styling Classes</a>
+								</li>
+								<li>
+									<a href="helper-classes.html">Helper Classes</a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#" class="contains-sub-menu">Plugins</a>
+							<ul class="sub-menu">
+								<li>
+									<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li class="current">
+									<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+								</li>
+								<li>
+									<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+								<li>
+									<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+								</li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">The Mountain</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="side-navigation-footer">
+					<p class="copyright no-margin-bottom">&copy; 2014 THEMEMOUNTAIN.</p>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<!-- Mobile Menu End -->
+
+	<div class="wrapper">
+		<div class="wrapper-inner">
+		
+			<!-- Header -->
+			<header class="nav-bar nav-main">
+				<div class="row">
+					<div class="column width-12">
+						<div class="logo">
+							<a class="weight-light" href="../index.html"><strong>Timber</strong> Framework</a>
+						</div>
+						<nav class="navigation nav-block secondary-navigation nav-right no-margin-left">
+							<ul>
+								<li class="aux-navigation hide">
+									<!-- Aux Navigation -->
+									<a href="#" class="navigation-show side-nav-show nav-icon">
+										<span class="icon-menu"></span>
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<nav class="navigation nav-block primary-navigation nav-right">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="components/grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<!-- Content -->
+			<div class="content clearfix">
+				<div class="section-block intro-title-1 small">
+					<div class="row">
+						<div class="column width-12">
+							<div class="title-container">
+								<div class="title-container-inner">
+									<h1>Summit Lightbox</h1>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row large">
+					<div class="column width-9 push-3">
+						<h2 id="summit">A Responsive Lightbox</h2>
+						<p>Summit is 100% reponsive and CSS3 transitions driven with a simple JS fallback for browsers such as IE9. It supports images, YouTube videos, Vimeo videos, inline HTML, iframes and ajax content. </p>
+						<hr>
+						<h3 id="resource-files">Resource Files</h3>
+						<p>Summit requires the following resource files:</p>
+						<h6 class="code-snippet-title">Css</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<link rel="stylesheet" href="css/summit.css" />
+								</code>
+							</pre>
+						</div>
+						<h6 class="code-snippet-title">Js</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+									<script type="text/javascript" src="js/jquery.tm.swipe.min.js"></script>
+									<script type="text/javascript" src="js/jquery.tm.summit.min.js"></script>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="single-images">Single Images</h3>
+						<div class="row content-grid-3">
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a id="img-1" data-toolbar class="overlay-link tml-link " href="../images/slider/slide-1.jpg" data-caption="This is a caption">
+										<img src="../images/lightbox/thumb-1.jpg" alt=""/>
+										<span class="overlay-info animation-fade-in">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a id="img-2" data-toolbar class="overlay-link tml-link" href="../images/slider/slide-2.jpg" data-caption="And another caption">
+										<img src="../images/lightbox/thumb-2.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-top">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a id="img-3" data-toolbar class="overlay-link tml-link" href="../images/slider/slide-3.jpg">
+										<img src="../images/lightbox/thumb-3.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a id="lightbox-link-1" class="tml-link" href="../images/img1.jpg">Image</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="lightbox-gallery">Lightbox Gallery</h3>
+						<p>Galleries can be created by adding the attribute "data-content" to all links that should be grouped. Links that are within such a group do not require an id.</p>
+						<div class="row content-grid-3">
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" data-caption="This is a caption" href="../images/slider/slide-1.jpg" data-retina>
+										<img src="../images/lightbox/thumb-1.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" data-caption="And here is another" href="../images/slider/slide-2.jpg">
+										<img src="../images/lightbox/thumb-2.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" data-caption="This is a beautiful photo" href="../images/slider/slide-3.jpg">
+										<img src="../images/lightbox/thumb-3.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" data-caption="This is a portrait image" href="../images/slider/slide-6-portrait.jpg">
+										<img src="../images/lightbox/thumb-6.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" href="../images/slider/slide-4.jpg">
+										<img src="../images/lightbox/thumb-4.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+							<div class="grid-item">
+								<div class="thumbnail">
+									<a data-toolbar class="overlay-link tml-link" data-group="gallery-1" href="../images/slider/slide-5.jpg">
+										<img src="../images/lightbox/thumb-5.jpg" alt=""/>
+										<span class="overlay-info animation-slide-in-left">
+											<span>
+												<span>
+													This is a overlay-caption
+												</span>
+											</span>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-group="gallery-1" class="tml-link" href="../images/img1.jpg">Image</a>
+									<a data-group="gallery-1" class="tml-link" href="../images/img2.jpg">Image</a>
+									<a data-group="gallery-1" class="tml-link" href="../images/img3.jpg">Image</a>
+								</code>
+							</pre>
+						</div>
+						<div class="box warning rounded">
+							<p><strong>Important:</strong> If retina is supported (i.e. retinaSupport = true ), two images must be provided, the original and the retina version. For example, if your lightbox images are named <strong>"lightbox-image-1.jpg, lightbox-image-2.jpg"</strong> etc., the corresponding retina versions should be named <strong>"lightbox-image-1@2x.jpg, lightbox-image-2@2x.jpg"</strong> using the @2x suffix. Also ensure that the retina version should is twice the size of the original image.</p>
+						</div>
+						<hr>
+						<h3 id="videos">Videos</h3>
+						<p>To launch a video in the Summit Lightbox, simply add the iframe URL. </p>
+						<ul class="circle">
+							<li><a data-toolbar class="tml-link" data-group="gallery-2" href="http://www.youtube.com/embed/v2k94HVvL6s">YouTube Video</a></li>
+							<li><a data-toolbar class="tml-link" data-group="gallery-2" href="http://player.vimeo.com/video/94614809">Vimeo Video</a>
+						</ul>
+						<div class="clear"></div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-group="gallery-1" class="tml-link" href="http://www.youtube.com/embed/v2k94HVvL6s">YouTube Video</a>
+									<a data-group="gallery-1" class="tml-link" href="http://player.vimeo.com/video/94614809">Vimeo Video</a>
+								</code>
+							</pre>
+						</div>
+						<h5>Video Ratio</h5>
+						<p>To use a custom video ratio for videos launched in the lightbox we use the data attribute <span class="label bkg-grey color-charcoal rounded">data-video-ratio</span>. Default ratio is set to 1.78.</p>
+						<ul class="circle">
+							<li><a data-toolbar class="tml-link" data-video-ratio="1.5" href="http://player.vimeo.com/video/94614809">Vimeo Video Custom Ratio</a>
+						</ul>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-video-ratio="1.5" class="tml-link" href="http://player.vimeo.com/video/94614809">Video Ratio</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="various-types">Various Types</h3>
+						<p>The Summit Lightbox can effectively be used to load other content such as iframes, inline and ajax content. To load such content the plugin requires that we add the attribute "data-content" to our links and specifying the type. </p>
+						<ul class="circle">
+							<li><a class="tml-link" data-group="gallery-3" data-toolbar data-content="iframe" href="http://www.html5rocks.com/">Iframe Content</a></li>
+							<li><a class="tml-link" data-group="gallery-3" data-toolbar data-content="ajax" data-target-container=".tm-wrapper" href="ajax-test-content.html">Ajax Content</a></li>
+							<li><a class="tml-link" data-group="gallery-3" data-toolbar data-content="inline" href="#inline-content">Inline Content</a></li>
+							<li><a class="tml-link" data-group="gallery-3" data-content="iframe" href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2558.467998979827!2d-122.94864700000001!3d50.114964!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5487234d067bf9cd%3A0x5ce9daf022b0baa!2sWhistler+Blackcomb!5e0!3m2!1sen!2s!4v1402437544883">Google Map</a></li>
+							<li><a class="tml-link" data-group="gallery-3" data-toolbar href="../images/non-url.jpg">Non Existing Url</a></li>
+						</ul>
+						<div class="clear"></div>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-content="iframe" class="tml-link" href="http://www.google.com">Iframe</a>
+									<a data-content="inline" class="tml-link" href="#inline-content">Inline</a>
+									<a data-content="ajax" class="tml-link" href="ajax-content.html">AJAX</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="toolbar">Lightbox Aux Classes <span class="label bkg-red color-white rounded small">New</span></h3>
+						<p>Summit Lightbox now has added support for custom classes. Use the data attribute <span class="label bkg-grey color-charcoal rounded">data-aux-classes</span> to specify custom classes that should be added to the lightbox wrapper. This is useful when you want to customize the look or feel of the lightbox.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-aux-classes="custom-class-1 custom-class-2" class="button tml-link" href="../images/img1.jpg">Launch Lightbox</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="toolbar">Lightbox Toolbar <span class="label bkg-red color-white rounded small">New</span></h3>
+						<p>Summit Lightbox now supports zoom and social sharing (Facebook, Twitter and Pinterest) for lightbox content. The toolbar is added by default but can be customized through the data-attribute <span class="label bkg-grey color-charcoal rounded">data-toolbar</span> by specifying the toolbar elements to include (<em>i.e.</em> zoom, share or both).</p>
+						<p><a class="button bkg-purple-light color-white tml-link" href="../images/slider/slide-5.jpg">Launch Lightbox</a></p>
+						<h6 class="code-snippet-title">Example (no toolbar)</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-toolbar class="button tml-link" href="../images/img1.jpg">Launch Lightbox</a>
+								</code>
+							</pre>
+						</div>
+						<h6 class="code-snippet-title">Example (zoom only)</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-toolbar="zoom" class="button tml-link" href="../images/img1.jpg">Zeoom Only</a>
+								</code>
+							</pre>
+						</div>
+						<h6 class="code-snippet-title">Example (share only)</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-toolbar="share" class="button tml-link" href="../images/img1.jpg">Share Only</a>
+								</code>
+							</pre>
+						</div>
+						<h5>Facebook Open Graph</h5>
+						<p>To share lightbox content on Facebook, four open graph tags need to be added to the head of the document where title, website, image and description are defined. <strong>Note:</strong> This means that only one image can be shared per page.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<meta property="og:title" content="Yout-Title-Here"/>
+									<meta property="og:type" content="website"/>
+									<meta property="og:image" content="Yout-Image-Url"/>
+									<meta property="og:description" content="Yout-Description-Here"/>
+								</code>
+							</pre>
+						</div>
+						<h5>Twitter Attributes</h5>
+						<p>To share an image on Twitter you need to specify the absolute URL of the lightbox iamge using the attribute <span class="label bkg-grey color-charcoal rounded">data-image-url</span>. You can also specify your Twitter username that will be shared with the attribute <span class="label bkg-grey color-charcoal rounded">data-twitter-username</span>.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-image-url="http://yoursite.com/images/image-to-share.jpg" data-twitter-username="thememountain" class="tml-link" href="../images/img1.jpg">Launch Lightbox</a>
+								</code>
+							</pre>
+						</div>
+						<h5>Pinterest Attributes</h5>
+						<p>To share an image on Pinterest you need to specify the absolute URL of the lightbox iamge using the attribute <span class="label bkg-grey color-charcoal rounded">data-image-url</span>. You can also need to specify a caption that will be used for the Pinterest description using the attribute <span class="label bkg-grey color-charcoal rounded">data-caption</span>.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-image-url="http://yoursite.com/images/image-to-share.jpg" data-caption="Your Image Description" class="tml-link" href="../images/img1.jpg">Launch Lightbox</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="modal-mode">Lightbox Modal Mode <span class="label bkg-red color-white rounded small">New</span></h3>
+						<p>Summit Lightbox now also supports modal mode. To launch the lightbox as a modal we add the data attribute <span class="label bkg-grey color-charcoal rounded">data-modal-mode</span> to the lightbox link. We can also specify the modal width through the data-attribute <span class="label bkg-grey color-charcoal rounded">data-modal-width</span>.</p>
+						<p><a data-toolbar data-modal-mode data-modal-width="600" data-content="inline" class="button bkg-purple-light color-white tml-link" href="#modal-content">Launch Modal</a></p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="html">
+									<a data-content="inline" data-modal-mode data-modal-width"600" class="button tml-link" href="../images/img1.jpg">Launch Modal</a>
+								</code>
+							</pre>
+						</div>
+						<hr>
+						<h3 id="usage">Summit Usage <span class="label bkg-red color-white rounded small">Updated</span></h3>
+						<p>To call the Summit Lightbox plugin on one or multiple links the following call should be added before the closing body tag on document ready.</p>
+						<h6 class="code-snippet-title">Example</h6>
+						<div class="box large rounded code-snippet">
+							<pre>
+								<code class="js">
+									$( document ).ready( function(){
+										$( '.link' ).summitLightbox();
+									});
+								</code>
+							</pre>
+						</div>
+						<table class="table rounded large">
+							<thead>
+								<tr>
+									<th>Attribute</th>
+									<th>Values</th>
+									<th>Default</th>
+									<th>Data Attribute</th>
+									<th>Description</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>lightboxAnimation</td>
+									<td>fade, slideInTop, slideInRight, slideInBottom, slideInLeft</td>
+									<td>fade</td>
+									<td>data-lightbox-animation <span class="alt-option">Attribute added to lightbox link.</span></td>
+									<td>How the lightbox should transition in</td>
+								</tr>
+								<tr>
+									<td>contentAnimation</td>
+									<td>slide, fade</td>
+									<td>slide</td>
+									<td>data-content-animation <span class="alt-option">Attribute added to lightbox link.</span></td>
+									<td>How the content should transition</td>
+								</tr>
+								<tr>
+									<td>slideAmount</td>
+									<td>number</td>
+									<td>100</td>
+									<td></td>
+									<td>How much the content should transition on the X axis</td>
+								</tr>
+								<tr>
+									<td>easing</td>
+									<td>For full list click here</td>
+									<td>swing</td>
+									<td></td>
+									<td>Sets the timing function of transitions, affects all elements</td>
+								</tr>
+								<tr>
+									<td>speed</td>
+									<td>milliseconds</td>
+									<td>350</td>
+									<td></td>
+									<td>Sets the transition speed of all elements</td>
+								</tr>
+								<tr>
+									<td>overlay</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether the lightbox should have an overlay or not</td>
+								</tr>
+								<tr>
+									<td>maxWidth</td>
+									<td>number</td>
+									<td>1140</td>
+									<td></td>
+									<td>Sets max width to which videos, iframe, inline and ajax content can scale</td>
+								</tr>
+								<tr>
+									<td>contentMargin</td>
+									<td>number</td>
+									<td>15</td>
+									<td>data-content-margin <span class="alt-option">Attribute added to lightbox link.</span></td>
+									<td>Represents margin around the lighbox from the device window, expressed as a percentage</td>
+								</tr>
+								<tr>
+									<td>videoRatio</td>
+									<td>number</td>
+									<td>1.778</td>
+									<td>data-video-ratio <span class="alt-option">Attribute added to lightbox link.</span></td>
+									<td>Represents ratio used to calculate video width and height</td>
+								</tr>
+								<tr>
+									<td>navArrows</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether lighbox should have navigation arrows or not</td>
+								</tr>
+								<tr>
+									<td>navKeyboard</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether lighbox should be controlled by keyboard</td>
+								</tr>
+								<tr>
+									<td>navExit</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td>data-nav-exit <span class="alt-option">Attribute added to lightbox link.</span></td>
+									<td>Whether lighbox should have an exit button. Set to false if you are using the lighbox as a modal.</td>
+								</tr>
+								<tr>
+									<td>overlayClickClose</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether overlay should close the lighbox upon clicking it</td>
+								</tr>
+								<tr>
+									<td>errorMessage</td>
+									<td>string</td>
+									<td>'Please Check'</td>
+									<td></td>
+									<td>Error message text</td>
+								</tr>
+								<tr>
+									<td>showErrorSrc</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether error message should show the source causing the error</td>
+								</tr>
+								<tr>
+									<td>auxClasses</td>
+									<td>string</td>
+									<td>''</td>
+									<td>data-aux-classes</td>
+									<td>Additional classes to be added to the lightbox wrapper. For custom styling on the fly.</td>
+								</tr>
+								<tr>
+									<td>retinaSupport</td>
+									<td>boolean</td>
+									<td>true</td>
+									<td></td>
+									<td>Whether plugin should serve retina images for retina displays.</td>
+								</tr>
+								<tr>
+									<td>retinaSupportMobile</td>
+									<td>boolean</td>
+									<td>false</td>
+									<td></td>
+									<td>Whether the plugin should swap images on mobile retina enabled devices. Set to false by default to save bandwidth usage on mobile devices.</td>
+								</tr>
+								<tr>
+									<td>retinaSuffix</td>
+									<td>string</td>
+									<td>'@2x'</td>
+									<td></td>
+									<td>The suffix that will be added to the image url.</td>
+								</tr>
+							</tbody>
+						</table>
+						<hr>
+						<h3 id="api">API</h3>
+						<p>The Summit Lightbox plugin offers a few useful callbacks and methods for interacting with the lightbox.</p>
+						<div class="tabs">
+							<ul class="tab-nav">
+								<li class="active">
+									<a href="#tab-content-1">Callbacks</a>
+								</li>
+								<li>
+									<a href="#tab-content-2">Methods</a>
+								</li>
+							</ul>
+							<div class="tab-panes">
+								<div id="tab-content-1" class="active">
+									<div class="tab-content">
+										<table class="table rounded large">
+											<thead>
+												<tr>
+													<th>Callback</th>
+													<th>Description</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>onSetup</td>
+													<td>Called upon lightbox creation, onSetup: function({})</td>
+												</tr>
+												<tr>
+													<td>onLoaded</td>
+													<td>Called once content is loaded, onLoaded: function({})</td>
+												</tr>
+												<tr>
+													<td>onDestroy</td>
+													<td>Called when lightbox is removed, onDestroy: function({})</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+								<div id="tab-content-2">
+									<div class="tab-content">
+										<h6>3 Methods</h6>
+										<p> The lighbox offers three public methods, namely .prevContent(), .nextContent(), and .destroyLightbox() which are particularly useful if the lightbox is used as a modal or self navigated projects. Use these medthods for controlling the lightbox from within the loaded content. Works best for inline and ajax loaded content.</p>
+										<table class="table rounded large">
+											<thead>
+												<tr>
+													<th>Medthod</th>
+													<th>Example</th>
+													<th>Description</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>prevContent</td>
+													<td>var lightbox = $( '.link' ).data( 'summitLightbox' );<br> lightbox.prevContent()</td>
+													<td>Moves to previous content</td>
+												</tr>
+												<tr>
+													<td>nextContent</td>
+													<td>var lightbox = $( '.link' ).data( 'summitLightbox' );<br> lightbox.nextContent()</td>
+													<td>Moves to next content</td>
+												</tr>
+												<tr>
+													<td>destroyLightbox</td>
+													<td>var lightbox = $( '.link' ).data( 'summitLightbox' );<br> lightbox.destroyLightbox()</td>
+													<td>Removes lightbox</td>
+												</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- Inline Content -->
+						<div id="inline-content" style="max-width:800px;padding:30px;display:none;">
+							<h3>Inline Content</h3>
+							<p><a id="close-window" href="#">Close Window</a></p>
+							<p style="margin-bottom:0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+						<!-- Modal -->
+						<div id="modal-content" style="padding:30px;display:none;">
+							<h3>This is a modal</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						</div>
+					</div>
+					<aside class="sidebar column width-3 pull-9">
+						<h3 class="widget-title">Components</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="grid.html">Grid</a>
+							</li>
+							<li>
+								<a href="typography.html">Typography</a>
+							</li>
+							<li>
+								<a href="navigation.html">Navigation</a>
+							</li>
+							<li>
+								<a href="blockquotes.html">Blockquotes</a>
+							</li>
+							<li>
+								<a href="feature-columns.html">Feature Columns</a>
+							</li>
+							<li>
+								<a href="lists.html">Lists</a>
+							</li>
+							<li>
+								<a href="buttons.html">Buttons</a>
+							</li>
+							<li>
+								<a href="labels.html">Labels</a>
+							</li>
+							<li>
+								<a href="dropdown.html">Dropdown</a>
+							</li>
+							<li>
+								<a href="accordion.html">Accordion </a>
+							</li>
+							<li>
+								<a href="tabs.html">Tabs</a>
+							</li>
+							<li>
+								<a href="timeline.html">Timeline <span class="label bkg-grey color-charcoal rounded small">New</span></a>
+							</li>
+							<li>
+								<a href="boxes.html">Boxes</a>
+							</li>
+							<li>
+								<a href="progress-bar.html">Progress Bars</a>
+							</li>
+							<li>
+								<a href="images.html">Images</a>
+							</li>
+							<li>
+								<a href="video.html">Video &amp; Audio</a>
+							</li>
+							<li>
+								<a href="tables.html">Tables</a>
+							</li>
+							<li>
+								<a href="pricing-tables.html">Pricing Tables</a>
+							</li>
+							<li>
+								<a href="form-elements.html">Form Elements</a>
+							</li>
+							<li>
+								<a href="icons.html">Icons</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Classes</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="styling-classes.html">Styling Classes</a>
+							</li>
+							<li>
+								<a href="helper-classes.html">Helper Classes</a>
+							</li>
+						</ul>
+						<h3 class="widget-title">Plugins</h3>
+						<ul class="list-group width-11">
+							<li>
+								<a href="avalanche-slider.html">Avalanche Slider <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li class="current">
+								<span class="icon-right-open-mini"></span>
+								<a href="summit-lightbox.html">Summit Lightbox <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="snowbridge-parallax.html">Snowbridge Parallax <span class="label bkg-purple-light color-white rounded small">Premium</span></a>
+							</li>
+							<li>
+								<a href="horizon-reveal.html">Horizon Reveal <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="equalize-heights.html">Equalize Heights <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="retinize-images.html">Retinize Images <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="counter.html">Counter <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+							<li>
+								<a href="swipe.html">Swipe It <span class="label bkg-green color-white rounded small">Free</span></a>
+							</li>
+						</ul>
+					</aside>
+				</div>
+			</div>
+			<!-- Content End -->
+
+			<!-- Footer -->
+			<footer class="footer">
+				<div class="row large center">
+					<div class="column width-12">
+						<img src="../images/theme-mountain-logo.svg" alt="Theme Mountain" />
+						<p class="footer-text">Handcrafted with <span class="icon-heart"></span> in the mountains.</p>
+						<nav id="footer-navigation" class="navigation nav-center">
+							<ul>
+								<li>
+									<a href="../index.html">Get Started</a>
+								</li>
+								<li class="current">
+									<a href="grid.html">Toolkit</a>
+								</li>
+								<li>
+									<a href="http://thememountain.com">The Mountain</a>
+								</li>
+								<li>
+									<a class="mail-link" href="mailto:dev@thememountain.com">Issues</a>
+								</li>
+							</ul>
+						</nav>
+						<p><span class="version-number">Current Version</span></p>
+						<p class="copyright">&copy; 2016 THEMEMOUNTAIN. <br>Framework licenced under MIT, plugins under CC BY-NC 3.0 unless otherwise specified.</p>
+						<a href="#" class="scroll-to-top icon-up bkg-hover-white"></a>
+					</div>
+				</div> 
+			</footer>
+			<!-- End Footer -->
+		</div>
+	</div>
+		
+	<!-- Js -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="../js/timber.master.min.js"></script>
+	<script type="text/javascript">
+		$( document ).ready( function() {
+			$( 'img' ).retinizeImages();
+			$( '.tml-link' ).summitLightbox({
+				onLoaded: function(){
+					$( '#tm-lightbox' ).find( '#prev-link' ).on( 'click', function( event ){
+						event.preventDefault();
+						$( this ).css({ transition: 'none' });
+						lb.prevContent();
+					});
+					$( '#tm-lightbox' ).find( '#next-link' ).on( 'click', function( event ){
+						event.preventDefault();
+						$( this ).css({ transition: 'none' });
+						lb.nextContent();
+					});
+					$( '#tm-lightbox' ).find( '#close-window' ).on( 'click', function( event ){
+						event.preventDefault();
+						$( this ).css({ transition: 'none' });
+						lb.destroyLightbox();
+					});
+				}
+			});
+			var lb = $( '.tml-link' ).data( 'summitLightbox' );
+		});
+	</script>
+</body>
+</html>
